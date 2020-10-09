@@ -20,5 +20,8 @@
 * [Pdf](pdf.md)
 * [Prediction](prediction.md)
 * [Sentiment Analysis](sentiment-analysis.md)
+
+## Others docs
+
 * [Naas](https://naas.gitbook.io/naas/)
 
