@@ -14,7 +14,7 @@
 * [Ftps](ftps.md)
 * [Geolocator](geolocator.md)
 * [Git](git.md)
-* [Google spreadshit](google-spreadshit.md)
+* [Google spreadsheet](google-spreadshit.md)
 * [Mongo](mongo.md)
 * [Healthcheks](healthcheks.md)
 * [Pdf](pdf.md)
