@@ -253,17 +253,17 @@ naas_drivers.html().footer("My title", elem, elems)
 ```text
 action="TSLA"
 title=f'Evolution of {action} stock'
+display = 'iframe' # can be iframe, embed or False
+elems = {
+        content:"""
+        🚀 Explore the data, zoom, and get deeply insights over the 100 last days Below. 
+        Picture are nice but dynamic chart below are way more fun  :"
+}
+footer = None # can be any elements
 email_content = naas_drivers.html().generate(
         title=title,
-        display='iframe',
-        heading="👉 Analyze daily performance over time.",
-        image=url_img,
-        table=news_table,
-        content="""
-        🚀 Explore the data, zoom, and get deeply insights over the 100 last days Below. 
-        Picture are nice but dynamic chart below are way more fun  :",
-        """,
-        button_Explore_white_300px=url_html
+        display=display,
+        *elems
 )
 ```
 
