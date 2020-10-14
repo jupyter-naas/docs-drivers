@@ -8,13 +8,13 @@ description: Buil html easily for emails or webpages
 
 ### Solo
 
-```text
+```python
 naas_drivers.html().title("My title")
 ```
 
 ### Subtitle
 
-```text
+```python
 naas_drivers.html().title("My title", "My subtitle")
 ```
 
@@ -22,13 +22,13 @@ naas_drivers.html().title("My title", "My subtitle")
 
 
 
-```text
+```python
 naas_drivers.html().heading("My heading")
 ```
 
 ## Subheading
 
-```text
+```python
 naas_drivers.html().subheading("My subheading")
 ```
 
@@ -36,13 +36,13 @@ naas_drivers.html().subheading("My subheading")
 
 ### Simple
 
-```text
+```python
 naas_drivers.html().text("My text")
 ```
 
 ### Font Size
 
-```text
+```python
 naas_drivers.html().text("My text", font_size="42px")
 ```
 
@@ -50,7 +50,7 @@ naas_drivers.html().text("My text", font_size="42px")
 
 Create info box
 
-```text
+```python
 text = naas_drivers.html().text("My text")
 naas_drivers.html().info(text)
 ```
@@ -75,34 +75,34 @@ naas_drivers.html().separator()
 
 ### Link
 
-```text
+```python
 naas_drivers.html().button("https://www.google.com")
 ```
 
 ### Title
 
-```text
+```python
 url = "https://www.google.com"
 naas_drivers.html().button(url, title="Open me")
 ```
 
 ### Size
 
-```text
+```python
 url = "https://www.google.com"
 naas_drivers.html().button(url, width="300px")
 ```
 
 ### Colors
 
-```text
+```python
 url = "https://www.google.com"
 naas_drivers.html().button(url, color="blue", background_color="white")
 ```
 
 ## Address
 
-```text
+```python
 naas_drivers.html().address("My title", "My content")
 ```
 
@@ -110,21 +110,21 @@ naas_drivers.html().address("My title", "My content")
 
 ### Simple
 
-```text
+```python
 link = "https://google.com"
 naas_drivers.html().link(link)
 ```
 
 ### Title
 
-```text
+```python
 link = "https://google.com"
 naas_drivers.html().link(link, title="My title")
 ```
 
 ### Color
 
-```text
+```python
 link = "https://google.com"
 naas_drivers.html().link(link, color="#F2F2F2")
 ```
@@ -135,7 +135,7 @@ naas_drivers.html().link(link, color="#F2F2F2")
 
 ### Simple
 
-```text
+```python
 data = [["😁 Happier subscribers!", "👌 Touchable interface!", "❤️ No more frustration!"],["💌 Semantic email markup!", "🦻 Screenreader friendly!", "💬 Commented for easy use!"]]
 naas_drivers.html().table(data)
 ```
@@ -144,7 +144,7 @@ naas_drivers.html().table(data)
 
 
 
-```text
+```python
 data = pandas.DataFrame()
 # each column title will be tranform in any html type
 naas_drivers.html().table(data)
@@ -154,14 +154,14 @@ naas_drivers.html().table(data)
 
 ### Simple
 
-```text
+```python
 url = "https://raw.githubusercontent.com/jupyter-naas/naas/main/images/naas_logo.svg"
 naas_drivers.html().image(url)
 ```
 
 ### Link
 
-```text
+```python
 url = "https://raw.githubusercontent.com/jupyter-naas/naas/main/images/naas_logo.svg"
 link = "https://google.com"
 naas_drivers.html().image(url, link=link)
@@ -169,7 +169,7 @@ naas_drivers.html().image(url, link=link)
 
 ### Name
 
-```text
+```python
 url = "https://raw.githubusercontent.com/jupyter-naas/naas/main/images/naas_logo.svg"
 name = "Image name"
 naas_drivers.html().image(url, name=name)
@@ -177,7 +177,7 @@ naas_drivers.html().image(url, name=name)
 
 ### Align
 
-```text
+```python
 url = "https://raw.githubusercontent.com/jupyter-naas/naas/main/images/naas_logo.svg"
 align = "right" # can be right left or center
 naas_drivers.html().image(url, align=align)
@@ -185,7 +185,7 @@ naas_drivers.html().image(url, align=align)
 
 ### Size
 
-```text
+```python
 url = "https://raw.githubusercontent.com/jupyter-naas/naas/main/images/naas_logo.svg"
 width="90%"
 height="80%"
@@ -196,14 +196,14 @@ naas_drivers.html().image(url, width=width, height=height)
 
 ### Simple
 
-```text
+```python
 url = "https://raw.githubusercontent.com/jupyter-naas/naas/main/images/naas_logo.svg"
 naas_drivers.html().image(url)
 ```
 
 ### Link
 
-```text
+```python
 url = "https://raw.githubusercontent.com/jupyter-naas/naas/main/images/naas_logo.svg"
 link = "https://google.com"
 naas_drivers.html().image(url, link=link)
@@ -211,7 +211,7 @@ naas_drivers.html().image(url, link=link)
 
 ### Name
 
-```text
+```python
 url = "https://raw.githubusercontent.com/jupyter-naas/naas/main/images/naas_logo.svg"
 name = "Image name"
 naas_drivers.html().image(url, name=name)
@@ -219,7 +219,7 @@ naas_drivers.html().image(url, name=name)
 
 ### Align
 
-```text
+```python
 url = "https://raw.githubusercontent.com/jupyter-naas/naas/main/images/naas_logo.svg"
 align = "right" # can be right left or center
 naas_drivers.html().image(url, align=align)
@@ -227,7 +227,7 @@ naas_drivers.html().image(url, align=align)
 
 ### Size
 
-```text
+```python
 url = "https://raw.githubusercontent.com/jupyter-naas/naas/main/images/naas_logo.svg"
 size="90px"
 naas_drivers.html().image(url, size=size)
@@ -235,14 +235,14 @@ naas_drivers.html().image(url, size=size)
 
 ## Header
 
-```text
+```python
 elems = [naas_drivers.html().text("My text")]
 naas_drivers.html().header(elems)
 ```
 
 ## Footer
 
-```text
+```python
 elem = naas_drivers.html().title("My title")
 elems = [naas_drivers.html().text("My text")]
 naas_drivers.html().footer("My title", elem, elems)
@@ -250,7 +250,7 @@ naas_drivers.html().footer("My title", elem, elems)
 
 ## Generate
 
-```text
+```python
 action="TSLA"
 title=f'Evolution of {action} stock'
 display = 'iframe' # can be iframe, embed or False
