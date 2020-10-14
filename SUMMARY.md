@@ -1,6 +1,7 @@
 # Table of contents
 
-* [Install](README.md)
+* [🚀 Get started](README.md)
+* [🖥️ Use on your computer](use-on-your-computer.md)
 
 ## Drivers
 
