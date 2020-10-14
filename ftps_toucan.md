@@ -1,11 +1,15 @@
-# Ftps
+---
+description: specific ftps connector for toucan
+---
+
+# Ftps\_toucan
 
 ## Connect
 
 ```python
  user = "my user"
  passwd = "my passwd"
- naas_drivers.ftps(user, passwd)
+ naas_drivers.ftps_toucan(user, passwd)
 ```
 
 ## Get file
@@ -14,7 +18,7 @@
 path = "/path/to/file/in/ftp"
 user = "my user"
 passwd = "my passwd"
-naas_drivers.ftps(user, passwd).get(path)
+naas_drivers.ftps_toucan(user, passwd).get(path)
 ```
 
 ## Send file
@@ -24,7 +28,7 @@ path = "/path/to/local/file"
 dest_path = "/path/to/file/in/ftp"
 user = "my user"
 passwd = "my passwd"
-naas_drivers.ftps(user, passwd).get(path, dest_path)
+naas_drivers.ftps_toucan(user, passwd).get(path, dest_path)
 ```
 
 ## List file
@@ -32,6 +36,6 @@ naas_drivers.ftps(user, passwd).get(path, dest_path)
 ```python
 user = "my user"
 passwd = "my passwd"
-naas_drivers.ftps(user, passwd).list_directory()
+naas_drivers.ftps_toucan(user, passwd).list_directory()
 ```
 

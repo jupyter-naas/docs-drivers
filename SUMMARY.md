@@ -8,8 +8,10 @@
 ---
 
 * [Html](html.md)
-* [Chart](chart.md)
+* [Plot](chart.md)
+* [Cityfalcon](cityfalcon.md)
 * [Toucan](toucan.md)
+* [Ftps\_toucan](ftps_toucan.md)
 * [Cashstory api](cashstory-api.md)
 * [Ftp](ftp.md)
 * [Ftps](ftps.md)
