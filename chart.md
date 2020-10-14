@@ -39,6 +39,14 @@ naas_drivers.plot().stock("TSLA", filter=True, filter_title="Stock")
 
 ## Export
 
+`SCREENSHOT_API`: this should be set as env vars.
+
+this should connect to this docker machine :
+
+{% embed url="https://hub.docker.com/r/anthonylau/url-to-pdf-api" %}
+
+
+
 ### Simple
 
 ```python

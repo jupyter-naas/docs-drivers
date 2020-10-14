@@ -18,6 +18,14 @@ Few drivers need specific env var set, that will be notified
 
 ### Why Naas Drivers?
 
+We came from excel with the conviction that formulas are awesome .
+
+Python can be use by developpers, or in low code way, that what we try to achieve with naas\_drivers.
+
+A simple formula to interact with powerfull tools.
+
+
+
 
 
 

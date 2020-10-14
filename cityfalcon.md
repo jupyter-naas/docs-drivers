@@ -4,6 +4,8 @@ description: connect to cityfalcon api
 
 # Cityfalcon
 
+`CITYFALCON_API`: optional env var to set the Cityfalcon endpoint.
+
 Official documentation
 
 {% embed url="https://dev.cityfalcon.com/doc/api/v0.2" %}
