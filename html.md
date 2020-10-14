@@ -133,8 +133,21 @@ naas_drivers.html().link(link, color="#F2F2F2")
 
 ## Table
 
+### Simple
+
 ```text
-naas_drivers.html().table("My title")
+data = [["😁 Happier subscribers!", "👌 Touchable interface!", "❤️ No more frustration!"],["💌 Semantic email markup!", "🦻 Screenreader friendly!", "💬 Commented for easy use!"]]
+naas_drivers.html().table(data)
+```
+
+### Dataframe
+
+
+
+```text
+data = pandas.DataFrame()
+# each column title will be tranform in any html type
+naas_drivers.html().table(data)
 ```
 
 ## Image
@@ -241,7 +254,7 @@ naas_drivers.html().footer("My title", elem, elems)
 action="TSLA"
 title=f'Evolution of {action} stock'
 email_content = naas_drivers.html().generate(
-        title=f'Evolution of {action} stock',
+        title=title,
         display='iframe',
         heading="👉 Analyze daily performance over time.",
         image=url_img,
