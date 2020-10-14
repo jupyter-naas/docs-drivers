@@ -25,3 +25,11 @@ key = "123456-123456-12455"
 naas_drivers.health_check.fail(key)
 ```
 
+## Check url
+
+```python
+url = "https://google.com"
+key = "123456-123456-12455"
+naas_drivers.health_check.check_up(url, key)
+```
+
