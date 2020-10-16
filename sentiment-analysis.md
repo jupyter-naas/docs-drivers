@@ -1,10 +1,8 @@
 ---
-description: Calculates the sentiment of the text in each row in the dataframe
+description: Get sentiment for each value in a column of the dataframe
 ---
 
 # Sentiment Analysis
-
-Get sentiment for each value in a column of the dataframe:
 
 ```python
 dataset = pd.DataFrame(
