@@ -18,6 +18,7 @@
 * [Healthcheks](healthcheks.md)
 * [Pdf](pdf.md)
 * [Sentiment Analysis](sentiment-analysis.md)
+* [Prediction](prediction.md)
 
 ## Others docs
 
