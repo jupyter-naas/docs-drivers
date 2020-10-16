@@ -14,6 +14,7 @@
 * [Ftps\_toucan](ftps_toucan.md)
 * [Ftp](ftp.md)
 * [Ftps](ftps.md)
+* [Gsheets](gsheets.md)
 * [Healthcheks](healthcheks.md)
 * [Pdf](pdf.md)
 * [Sentiment Analysis](sentiment-analysis.md)
