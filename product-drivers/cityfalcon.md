@@ -2,7 +2,7 @@
 description: connect to cityfalcon api
 ---
 
-# Cityfalcon
+# 📰Cityfalcon
 
 `CITYFALCON_API`: optional env var to set the Cityfalcon endpoint.
 

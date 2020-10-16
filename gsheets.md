@@ -2,7 +2,7 @@
 description: Fetch data from a sheet in google spreadsheet.
 ---
 
-# Gsheets
+# 📈Gsheets
 
 ## Share your google sheet with service account
 

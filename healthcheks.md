@@ -1,4 +1,4 @@
-# Healthcheks
+# ⛑Healthcheks
 
 `HC_API` : this should be set as env vars.
 

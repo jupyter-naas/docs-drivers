@@ -1,4 +1,4 @@
-# Plot
+# 📊Plot
 
 ## Stock
 

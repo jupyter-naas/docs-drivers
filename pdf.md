@@ -2,7 +2,7 @@
 description: Create pdf from url
 ---
 
-# Pdf
+# 📄Pdf
 
 ```text
 url = "https://google.com"
