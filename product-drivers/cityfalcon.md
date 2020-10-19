@@ -1,5 +1,5 @@
 ---
-description: connect to cityfalcon api
+description: Connect to cityfalcon api
 ---
 
 # 📰Cityfalcon

@@ -1,5 +1,5 @@
 ---
-description: specific ftps connector for toucan
+description: Connect to Toucan toco ftps
 ---
 
 # 📂🔒Ftps\_toucan
