@@ -4,6 +4,10 @@ description: Interact with Airtable app
 
 # 💨Airtable
 
+### More details on official documentation:
+
+{% embed url="https://airtable.com/api" %}
+
 ## Connect
 
 ```python

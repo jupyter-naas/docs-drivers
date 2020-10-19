@@ -23,6 +23,7 @@
 * [📂🔒Ftps\_toucan](product-drivers/ftps_toucan.md)
 * [📰Cityfalcon](product-drivers/cityfalcon.md)
 * [⚡️Zappier](product-drivers/zappier.md)
+* [🛁Bubble](product-drivers/bubble.md)
 * [💨Airtable](product-drivers/airtable.md)
 
 ## Others docs
