@@ -23,6 +23,7 @@
 * [⛑Healthcheks](product-drivers/healthcheks.md)
 * [📰Cityfalcon](product-drivers/cityfalcon.md)
 * [⚡️Zappier](product-drivers/zappier.md)
+* [➕IFTTT](product-drivers/ifttt.md)
 * [🛁Bubble](product-drivers/bubble.md)
 * [💨Airtable](product-drivers/airtable.md)
 
