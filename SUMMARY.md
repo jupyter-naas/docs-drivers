@@ -22,6 +22,7 @@
 * [📊Toucan](product-drivers/toucan.md)
 * [📂🔒Ftps\_toucan](product-drivers/ftps_toucan.md)
 * [📰Cityfalcon](product-drivers/cityfalcon.md)
+* [💨Airtable](product-drivers/airtable.md)
 
 ## Others docs
 
