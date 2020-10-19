@@ -2,7 +2,7 @@
 description: Connect to Toucan toco ftps
 ---
 
-# 📂🔒Ftps\_toucan
+# 🔒Ftps\_toucan
 
 ## Connect
 

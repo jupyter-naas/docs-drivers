@@ -19,7 +19,7 @@
 
 * [📈Gsheets](product-drivers/gsheets.md)
 * [📊Toucan](product-drivers/toucan.md)
-* [📂🔒Ftps\_toucan](product-drivers/ftps_toucan.md)
+* [🔒Ftps\_toucan](product-drivers/ftps_toucan.md)
 * [⛑Healthcheks](product-drivers/healthcheks.md)
 * [📰Cityfalcon](product-drivers/cityfalcon.md)
 * [⚡️Zappier](product-drivers/zappier.md)
