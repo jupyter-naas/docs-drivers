@@ -1,3 +1,7 @@
+---
+description: Create chart easily
+---
+
 # 📊Plot
 
 ## Stock

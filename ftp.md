@@ -1,3 +1,7 @@
+---
+description: Connect to your ftp server
+---
+
 # 📂Ftp
 
 ## Connect
