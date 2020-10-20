@@ -20,8 +20,6 @@ naas_drivers.html().title("My title", "My subtitle")
 
 ## Heading
 
-
-
 ```python
 naas_drivers.html().heading("My heading")
 ```
