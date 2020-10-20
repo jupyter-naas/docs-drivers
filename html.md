@@ -251,19 +251,21 @@ naas_drivers.html().footer("My title", elem, elems)
 ## Generate
 
 ```python
-action="TSLA"
-title=f'Evolution of {action} stock'
-display = 'iframe' # can be iframe, embed or False
-elems = {
-        content:"""
+stock="TSLA"
+
+title=f'Evolution of {stock} stock'
+heading="👉 Analyze daily performance over time."
+content:"""
         🚀 Explore the data, zoom, and get deeply insights over the 100 last days Below. 
-        Picture are nice but dynamic chart below are way more fun  :"
-}
-footer = None # can be any elements
+        Picture are nice but dynamic chart below are way more fun  :
+"""
+display = 'iframe' # can be iframe, embed or False ( for display in notebook)
 email_content = naas_drivers.html().generate(
         title=title,
-        display=display,
-        *elems
+        heading=heading,
+        content=content,
+        button_Explore_300px=url_html,
+        display=display
 )
 ```
 
