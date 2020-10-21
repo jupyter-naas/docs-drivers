@@ -18,7 +18,7 @@ Hit the documentation button to get your key :
 import naas_drivers
 event = "myevent"
 key = "cl9U-VaeBu1**********"
-data = { "value1":"Bryan", "value2":"Helmig", "value3": 27 }
+data = { "value1": "Bryan", "value2": "Helmig", "value3": 27 }
 result = nass_drivers.ifttt().webhook(event, key, data)
 ```
 
