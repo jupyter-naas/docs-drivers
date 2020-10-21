@@ -2,7 +2,7 @@
 description: get data as Dataframe from yahoo
 ---
 
-# Yahoo
+# 💰Yahoo
 
 ## Stock
 

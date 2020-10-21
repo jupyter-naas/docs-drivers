@@ -24,14 +24,11 @@
 * [📰Cityfalcon](product-drivers/cityfalcon.md)
 * [⚡️Zappier](product-drivers/zappier.md)
 * [➕IFTTT](product-drivers/ifttt.md)
+* [💰Yahoo](product-drivers/yahoo.md)
 * [🛁Bubble](product-drivers/bubble.md)
 * [💨Airtable](product-drivers/airtable.md)
 
 ## Main docs
 
 * [Naas](https://naas.gitbook.io/naas/)
-
----
-
-* [Yahoo](yahoo.md)
 

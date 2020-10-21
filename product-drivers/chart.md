@@ -22,7 +22,7 @@ You can give Moving average with column start with MA \(Max 2\)
 
 all this data can be generated for you by the Yahoo driver
 
-{% page-ref page="../yahoo.md" %}
+{% page-ref page="yahoo.md" %}
 
 ### Basic
 
