@@ -2,6 +2,7 @@
 
 * [🚀 Get started](README.md)
 * [🖥️ Use on your computer](use-on-your-computer.md)
+* [👍Updates](changelog.md)
 
 ## Drivers
 
@@ -31,8 +32,4 @@
 ## Main docs
 
 * [Naas](https://naas.gitbook.io/naas/)
-
----
-
-* [👍Updates](changelog.md)
 
