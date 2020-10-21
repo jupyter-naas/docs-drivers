@@ -2,7 +2,7 @@
 description: Latest version 0.15.3
 ---
 
-# Changelog
+# Updates
 
 ## To get the latest version reload your Jupyter machine
 

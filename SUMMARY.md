@@ -34,5 +34,5 @@
 
 ---
 
-* [Changelog](changelog.md)
+* [Updates](changelog.md)
 
