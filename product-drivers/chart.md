@@ -1,12 +1,28 @@
 ---
-description: Create chart easily
+description: Create chart easily with plotly
 ---
 
-# 📊Plot
+# 📊Plotly
 
 ## Stock
 
-Create stock chart
+Create stock chart from dataframe
+
+Give a data frame with theses columns
+
+| Date | Open | High | Low | Close | Adj Close | Volume | Company |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+
+
+You can give Moving average with column start with MA \(Max 2\)
+
+| MA5 | MA20 |
+| :--- | :--- |
+
+
+all this data can be generated for you by the Yahoo driver
+
+{% page-ref page="../yahoo.md" %}
 
 ### Basic
 

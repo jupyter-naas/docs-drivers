@@ -2,7 +2,7 @@
 description: Interact with toucan toco app
 ---
 
-# 📊Toucan
+# 📊Toucan Toco
 
 Under construction
 
