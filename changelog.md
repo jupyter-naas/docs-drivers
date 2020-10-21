@@ -4,7 +4,22 @@ description: Latest version 0.15.3
 
 # Updates
 
-## To get the latest version reload your Jupyter machine
+## To get the latest version 
+
+### In naas cloud
+
+```python
+import naas
+naas.update()
+```
+
+### In your local machine
+
+```python
+!pip install --upgrade naas_drivers
+```
+
+
 
 ## 0.15.3 \(2020-10-21\)
 
