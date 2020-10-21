@@ -32,3 +32,7 @@
 
 * [Naas](https://naas.gitbook.io/naas/)
 
+---
+
+* [Changelog](changelog.md)
+
