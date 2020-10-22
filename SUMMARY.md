@@ -9,8 +9,6 @@
 ---
 
 * [📂Ftp](ftp.md)
-* [🔒Ftps](ftps.md)
-* [🔒Ftps Toucan Toco](ftps_toucan.md)
 * [📜Html](html.md)
 * [📄Pdf](pdf.md)
 * [🔮Prediction](prediction.md)

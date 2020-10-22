@@ -9,7 +9,23 @@ description: Connect to your ftp server
 ```python
  user = "my user"
  passwd = "my passwd"
- naas_drivers.ftp(user, passwd)
+ ftp = naas_drivers.ftps_toucan(user, passwd)
+```
+
+## Connect Secure \(FTPS\)
+
+```python
+ user = "my user"
+ passwd = "my passwd"
+ ftp = naas_drivers.ftps_toucan(user, passwd, port=990, secure=True)
+```
+
+## Connect and force Prot \(FTPS Toucan toco\)
+
+```python
+ user = "my user"
+ passwd = "my passwd"
+ ftp = naas_drivers.ftps_toucan(user, passwd, secure=True, force_prot=True)
 ```
 
 ## Get file
