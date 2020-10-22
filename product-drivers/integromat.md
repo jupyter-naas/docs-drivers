@@ -1,5 +1,5 @@
 ---
-description: Interact with Zappier app
+description: Interact with integromat app
 ---
 
 # 🤖 Integromat
@@ -14,7 +14,7 @@ description: Interact with Zappier app
 
 ```python
 import nass_drivers
-url = "https://zapier.com/hooks/catch/n/Lx2RH/"
+url = "https://hook.integromat.com/7edtlwmn8foer0r9i9ainjvsz3vxmwos"
 data = { "first_name":"Bryan", "last_name":"Helmig", "age": 27 }
 result = nass_drivers.integromat.webhook(url, data)
 ```
