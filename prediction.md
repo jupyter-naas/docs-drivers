@@ -40,7 +40,7 @@ pr.predict(prediction_type, dataset, label, date_column, plot)
 
 
   ```text
-    Type: Dataframe (with the exact column name to be predicted and a date column).
+    Type: Dataframe (with the exact column name to be predicted and an index of datetime type).
   ```
 
 *  `label`:  
