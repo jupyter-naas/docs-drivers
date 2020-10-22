@@ -15,9 +15,9 @@ For the driver to fetch the contents of your google sheet, you need to share it 
 Now you can fetch data from the sheet as a pandas dataframe.
 
 ```python
-naas_drivers.gsheet(
+naas_drivers.gsheet().get(
     spreadsheet_id="sadf3q123413asffd123",
-    sheet_id="TSLA"
+    sheet_name="TSLA"
 )
 ```
 
