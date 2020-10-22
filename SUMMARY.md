@@ -23,6 +23,7 @@
 * [📊Toucan Toco](product-drivers/toucan.md)
 * [⛑Healthcheks](product-drivers/healthcheks.md)
 * [📰Cityfalcon](product-drivers/cityfalcon.md)
+* [🤖 Integromat](product-drivers/integromat.md)
 * [⚡️Zappier](product-drivers/zappier.md)
 * [➕IFTTT](product-drivers/ifttt.md)
 * [💰Yahoo](product-drivers/yahoo.md)
