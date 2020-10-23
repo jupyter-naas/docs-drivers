@@ -14,7 +14,7 @@ dataset = pd.DataFrame(
                 ]
         }
 )
-naas_drivers.sentiment_analysis().calculate(
+naas_drivers.sentiment_analysis.calculate(
         dataset=dataset,
         column_name="Dialogue",
         details= False

@@ -9,7 +9,7 @@ description: Connect to your ftp server
 ```python
  user = "my user"
  passwd = "my passwd"
- ftp = naas_drivers.ftps_toucan(user, passwd)
+ ftp = naas_drivers.ftp.connect(user, passwd)
 ```
 
 ## Connect Secure \(FTPS\)
@@ -17,7 +17,7 @@ description: Connect to your ftp server
 ```python
  user = "my user"
  passwd = "my passwd"
- ftp = naas_drivers.ftps_toucan(user, passwd, port=990, secure=True)
+ ftp = naas_drivers.ftp.connect(user, passwd, port=990, secure=True)
 ```
 
 ## Connect and force Prot \(FTPS Toucan toco\)
@@ -25,7 +25,7 @@ description: Connect to your ftp server
 ```python
  user = "my user"
  passwd = "my passwd"
- ftp = naas_drivers.ftps_toucan(user, passwd, secure=True, force_prot=True)
+ ftp = naas_drivers.ftp.connect(user, passwd, secure=True, force_prot=True)
 ```
 
 ## Get file
@@ -34,7 +34,8 @@ description: Connect to your ftp server
 path = "/path/to/file/in/ftp"
 user = "my user"
 passwd = "my passwd"
-naas_drivers.ftp(user, passwd).get(path)
+ftp = naas_drivers.ftp.connect(user, passwd)
+ftp.get(path)
 ```
 
 ## Send file
@@ -44,7 +45,8 @@ path = "/path/to/local/file"
 dest_path = "/path/to/file/in/ftp"
 user = "my user"
 passwd = "my passwd"
-naas_drivers.ftp(user, passwd).get(path, dest_path)
+ftp = naas_drivers.ftp.connect(user, passwd)
+ftp.get(path, dest_path)
 ```
 
 ## List file
@@ -52,6 +54,7 @@ naas_drivers.ftp(user, passwd).get(path, dest_path)
 ```python
 user = "my user"
 passwd = "my passwd"
-naas_drivers.ftp(user, passwd).list_directory()
+ftp = naas_drivers.ftp.connect(user, passwd)
+ftp.list_directory()
 ```
 

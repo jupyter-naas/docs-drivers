@@ -4,20 +4,10 @@ description: Predict the time series data
 
 # 🔮Prediction
 
-
-
-### Initialize the prediction object
-
-> This makes our prediction formula ready.
-
-```text
-pr = naas_drivers.prediction()
-```
-
 ### Predict:
 
 ```python
-pr.predict(prediction_type, dataset, label, date_column, plot)
+naas_drivers.prediction.predict(prediction_type, dataset, label, date_column, plot)
 ```
 
 > All the parameters of the above formula are explained below.
@@ -89,7 +79,7 @@ pr.predict(prediction_type, dataset, label, date_column, plot)
 > Once you have predicted using the above predict formula, you can plot the predictions
 
 ```python
-  pr.plot_output(data_points, plot_width, plot_height)
+  naas_drivers.prediction.plot_output(data_points, plot_width, plot_height)
 ```
 
 > All the parameters of the above formula are explained below.
@@ -129,7 +119,7 @@ pr.predict(prediction_type, dataset, label, date_column, plot)
 
 ```python
 import naas_drivers
-pr = naas_drivers.prediction() pr.predict(prediction_type="all", dataset=df, label="Open", date_column="Date", plot=True)
+pr = naas_drivers.prediction.predict(prediction_type="all", dataset=df, label="Open", date_column="Date", plot=True)
 ```
 
 > Executing the above will produce the following output

@@ -27,7 +27,7 @@ all this data can be generated for you by the Yahoo driver
 ### Basic
 
 ```python
-naas_drivers.plot().stock("TSLA")
+naas_drivers.plot.stock("TSLA")
 ```
 
 ### Date
@@ -35,26 +35,26 @@ naas_drivers.plot().stock("TSLA")
 ```python
 date_from = -30 # Date can be number or date or today
 date_to = "today"
-naas_drivers.plot().stock("TSLA", date_from=date_from, date_to=date_to)
+naas_drivers.plot.stock("TSLA", date_from=date_from, date_to=date_to)
 ```
 
 ### Interval
 
 ```python
-naas_drivers.plot().stock("TSLA", interval="1d")
+naas_drivers.plot.stock("TSLA", interval="1d")
 ```
 
 ### Chart type
 
 ```python
 kind = "candlestick" # can be linechart or candlestick
-naas_drivers.plot().stock("TSLA", kind=kind)
+naas_drivers.plot.stock("TSLA", kind=kind)
 ```
 
 ### Filter
 
 ```python
-naas_drivers.plot().stock("TSLA", filter=True, filter_title="Stock")
+naas_drivers.plot.stock("TSLA", filter=True, filter_title="Stock")
 ```
 
 ## Export
@@ -70,17 +70,17 @@ this should connect to this docker machine :
 ### Simple
 
 ```python
-chart = naas_drivers.plot().stock("TSLA")
+chart = naas_drivers.plot.stock("TSLA")
 filename = "Tesla.png" # can be png or html
-naas_drivers.plot().export(chart, "Tesla.png", css=None)
+naas_drivers.plot.export(chart, "Tesla.png", css=None)
 ```
 
 ### Css
 
 ```python
-chart = naas_drivers.plot().stock("TSLA")
+chart = naas_drivers.plot.stock("TSLA")
 filename = "Tesla.png" # can be png or html
 css = ".custom_css {color: white}"
-naas_drivers.plot().export(chart, "Tesla.png", css=css)
+naas_drivers.plot.export(chart, "Tesla.png", css=css)
 ```
 
