@@ -55,7 +55,8 @@ naas_drivers.plot.stock("TSLA", interval="1d")
 ### Chart type
 
 ```python
-kind = "candlestick" # can be linechart or candlestick
+kind = "linechart" 
+# can be linechart, linechart_open, linechart_close or candlestick
 naas_drivers.plot.stock("TSLA", kind=kind)
 ```
 

@@ -72,7 +72,7 @@ pr = naas_drivers.prediction.get(dataset=dataset, prediction_type="ARIMA", label
 > Once you have predicted using the above predict formula, you can plot the predictions
 
 ```python
-  naas_drivers.plotly.stock(pr)
+  naas_drivers.plotly.stock(pr, , "linechart_close")
 ```
 
 Check more options on the link below
