@@ -1,5 +1,5 @@
 ---
-description: Interact with Zappier app
+description: Interact with integromat app
 ---
 
 # 🤖 Integromat
