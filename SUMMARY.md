@@ -21,6 +21,7 @@
 * [📰Cityfalcon](product-drivers/cityfalcon.md)
 * [📈Gsheets](product-drivers/gsheets.md)
 * [⛑Healthcheks](product-drivers/healthcheks.md)
+* [🪐Jupyter](product-drivers/jupyter.md)
 * [➕IFTTT](product-drivers/ifttt.md)
 * [🤖 Integromat](product-drivers/integromat.md)
 * [📊Plotly](product-drivers/chart.md)
