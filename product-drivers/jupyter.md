@@ -48,6 +48,8 @@ user = jp.get_user(email)
 
 ### Create
 
+Only Naas super admin can do it 
+
 ```text
 create_user
 email = "bob@cashstory.com"
