@@ -24,7 +24,17 @@ naas_drivers.cityfalcon.get("TSLA")
 
 ### Fields
 
-Choose fields you want to get in result
+Choose fields you want to get in result, list available below:
+
+* title
+* image
+* link
+* description
+* score
+* sentiment
+* source
+* source\_logo
+* image
 
 ```python
 fields = ["image", "title"]
