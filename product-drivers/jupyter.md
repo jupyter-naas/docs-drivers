@@ -46,6 +46,16 @@ email = "bob@cashstory.com"
 user = jp.get_user(email)
 ```
 
+### Create
+
+```text
+create_user
+email = "bob@cashstory.com"
+password = "****"
+super_admin_token = "*****"
+user = jp.create_user(email, password, super_admin_token)
+```
+
 ### Active
 
 ```text
