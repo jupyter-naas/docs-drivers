@@ -8,6 +8,8 @@ description: Create chart easily with plotly
 
 Create stock chart from Dataframe
 
+If you use yahoo driver you can pass it without option it's made to work together
+
 Give a data frame with theses columns
 
 | Date | Open | High | Low | Close | Adj Close | Volume | Company |
@@ -35,21 +37,8 @@ all this data can be generated for you by the Yahoo driver
 ### Basic
 
 ```python
-naas_drivers.plot.stock("TSLA")
-```
-
-### Date
-
-```python
-date_from = -30 # Date can be number or date or today
-date_to = "today"
-naas_drivers.plot.stock("TSLA", date_from=date_from, date_to=date_to)
-```
-
-### Interval
-
-```python
-naas_drivers.plot.stock("TSLA", interval="1d")
+df = naas_drivers.yahoo.stock("TSLA")
+chart = naas_drivers.plot.stock(df)
 ```
 
 ### Chart type
@@ -66,25 +55,51 @@ naas_drivers.plot.stock("TSLA", kind=kind)
 naas_drivers.plot.stock("TSLA", filter=True, filter_title="Stock")
 ```
 
+## Linechart
+
+If you use yahoo driver you can pass it without option it's made to work together
+
+### Basic
+
+```python
+df = naas_drivers.yahoo.stock("TSLA")
+chart = naas_drivers.plot.linechart(df, label_x="Date", label_y=["Close"])
+```
+
+## Candlestick
+
+If you use yahoo driver you can pass it without option it's made to work together
+
+### Basic
+
+```python
+df = naas_drivers.yahoo.stock("TSLA")
+chart = naas_drivers.plot.candlestick(df, 
+                label_x="Date", 
+                label_open="Open", 
+                label_high="Hight"
+                label_low="Low",
+                label_close="Close"
+                )
+```
+
 ## Export
 
-`SCREENSHOT_API`: this should be set as env vars.
+`SCREENSHOT_API`: this should be set as env vars. in local naas
 
 this should connect to this docker machine :
 
 {% embed url="https://hub.docker.com/r/anthonylau/url-to-pdf-api" %}
 
-
-
 ### Simple
 
 ```python
 chart = naas_drivers.plot.stock("TSLA")
-filename = "Tesla.png" # can be png or html
+filename = "Tesla.png" # can be png, jpeg or html
 naas_drivers.plot.export(chart, "Tesla.png", css=None)
 ```
 
-### Css
+### Css custom
 
 ```python
 chart = naas_drivers.plot.stock("TSLA")
