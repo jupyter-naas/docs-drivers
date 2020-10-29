@@ -24,6 +24,7 @@
 * [🪐Jupyter](product-drivers/jupyter.md)
 * [➕IFTTT](product-drivers/ifttt.md)
 * [🤖 Integromat](product-drivers/integromat.md)
+* [🆕 News api](product-drivers/news-api.md)
 * [📊Plotly](product-drivers/chart.md)
 * [📊Toucan Toco](product-drivers/toucan.md)
 * [💰Yahoo](product-drivers/yahoo.md)
