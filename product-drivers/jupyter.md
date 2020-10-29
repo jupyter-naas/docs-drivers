@@ -23,7 +23,7 @@ jp = naas_drivers.jupyter.connect(token)
 me = jp.get_me()
 ```
 
-### uptime
+### Uptime
 
 ```text
 uptime = jp.get_me_uptime()
@@ -59,6 +59,8 @@ user = jp.create_user(email, password, super_admin_token)
 ```
 
 ### Active
+
+check if user has running server
 
 ```text
 active = jp.is_user_active(user)
