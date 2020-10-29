@@ -1,5 +1,5 @@
 ---
-description: Connect to news api
+description: Connect to news api and get a dataframe
 ---
 
 # 🆕 News api

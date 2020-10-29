@@ -1,5 +1,5 @@
 ---
-description: Connect to cityfalcon api
+description: Connect to cityfalcon api and get a dataframe
 ---
 
 # 📰Cityfalcon

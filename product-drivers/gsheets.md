@@ -1,5 +1,5 @@
 ---
-description: Fetch data from a sheet in google spreadsheet.
+description: Fetch data from a sheet in google spreadsheet and get a dataframe
 ---
 
 # 📈Gsheets
