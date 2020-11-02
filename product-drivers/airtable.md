@@ -16,7 +16,7 @@ description: Interact with Airtable app
 
 ![Screenshot of account API section](../.gitbook/assets/screenshot-2020-11-02-at-13.34.30.png)
 
-then go on the upper link and choose the workspace you wanna connect and go on the Authentication section, you should see something like :
+then go on the upper link and choose the workspace you wanna connect and on the Authentication section, you should see :
 
 ![Screenshot of official doc](../.gitbook/assets/screenshot-2020-11-02-at-13.30.21.png)
 
