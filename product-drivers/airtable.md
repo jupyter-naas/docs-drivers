@@ -8,55 +8,54 @@ description: Interact with Airtable app
 
 {% embed url="https://airtable.com/api" %}
 
+
+
 ## Connect
+
+`apikey` can be generated in your account 
+
+![Screenshot of account API section](../.gitbook/assets/screenshot-2020-11-02-at-13.34.30.png)
+
+then go on the upper link and choose the workspace you wanna connect and go on the Authentication section, you should see something like :
+
+![Screenshot of official doc](../.gitbook/assets/screenshot-2020-11-02-at-13.30.21.png)
+
+`database_key` is the value between `v0/` and `/` 
+
+`table_name` is the value after the last `/` 
 
 ```python
 import nass_drivers
-airtable = nass_drivers.airtable.connect('baseKey', 'table_name')
+airtable = nass_drivers.airtable.connect('api_key', 'database_key', 'table_name')
 ```
 
 ## Get all
 
 ```python
-import nass_drivers
-airtable = nass_drivers.airtable.connect('baseKey', 'table_name')
-
 airtable.get_all(view='MyView', maxRecords=20)
 ```
 
 ## Insert
 
 ```python
-import nass_drivers
-airtable = nass_drivers.airtable.connect('baseKey', 'table_name')
-
 airtable.insert({'Name': 'Brian'})
 ```
 
 ## Search
 
 ```python
-import nass_drivers
-airtable = nass_drivers.airtable.connect('baseKey', 'table_name')
-
 airtable.search('Name', 'Tom')
 ```
 
 ## Update
 
 ```python
-import nass_drivers
-airtable = nass_drivers.airtable.connect('baseKey', 'table_name')
-
 airtable.update_by_field('Name', 'Tom', {'Phone': '1234-4445'})
 ```
 
 ## Delete
 
 ```python
-import nass_drivers
-airtable = nass_drivers.airtable.connect('baseKey', 'table_name')
-
 airtable.delete_by_field('Name', 'Tom')
 ```
 
