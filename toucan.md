@@ -6,14 +6,6 @@ description: Interact with toucan toco app
 
 {% embed url="https://toucantoco.com/en/" caption="Website" %}
 
-## Version
-
-get the current version of app
-
-```python
-naas_drivers.toucan.get_version()
-```
-
 ## Connect
 
 ```python
@@ -22,6 +14,14 @@ url = "http://toucan.bobapp.ai/"
 username = "bob@cashstory.com" 
 password = "test"
 naas_drivers.toucan.connect(url, username, password)
+```
+
+## Version
+
+get the current version of app
+
+```python
+naas_drivers.toucan.get_version()
 ```
 
 ## Screenshots
