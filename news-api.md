@@ -4,9 +4,7 @@ description: Connect to news api and get a dataframe
 
 # 🆕 News api
 
-### More details on official documentation:
-
-{% embed url="https://newsapi.org/docs/endpoints" %}
+{% embed url="https://newsapi.org/" caption="Website" %}
 
 ## Connect
 
@@ -67,4 +65,8 @@ data = naas_drivers.newsapi.get_top(sources='bbc-news')
 ```python
 sources = naas_drivers.newsapi.get_sources()
 ```
+
+## Official documentation
+
+{% embed url="https://newsapi.org/docs/endpoints" %}
 

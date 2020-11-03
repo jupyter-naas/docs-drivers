@@ -34,7 +34,7 @@
 * [📂Ftp](ftp.md)
 * [📈Gsheets](gsheets.md)
 * [🪐Jupyter](jupyter.md)
-* [🥭MongoDb](mongodb.md)
+* [🥭MongoDB](mongodb.md)
 * [📊Toucan Toco](toucan.md)
 
 ## Main docs

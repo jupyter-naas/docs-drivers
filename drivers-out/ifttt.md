@@ -4,9 +4,7 @@ description: Interact with Zappier app
 
 # ➕IFTTT
 
-### More details on the documentation here:
-
-{% embed url="https://ifttt.com/maker\_webhooks/" %}
+{% embed url="https://ifttt.com" caption="Website" %}
 
 Hit the documentation button to get your key :
 
@@ -19,8 +17,10 @@ import naas_drivers
 event = "myevent"
 key = "cl9U-VaeBu1**********"
 data = { "value1": "Bryan", "value2": "Helmig", "value3": 27 }
-result = nass_drivers.ifttt.webhook(event, key, data)
+result = nass_drivers.ifttt.send(event, key, data)
 ```
 
+## Official documentation
 
+{% embed url="https://ifttt.com/maker\_webhooks/" caption="Documentation" %}
 

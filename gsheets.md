@@ -28,6 +28,7 @@ naas_drivers.gsheet.get(
 ## Send data
 
 ```python
+data = [{ "name": "Jean", "email": "jean@appleseed.com" }, { "name": "Bunny", "email": "bunny@appleseed.com" }]
 naas_drivers.gsheet.send(
     spreadsheet_id="sadf3q123413asffd123",
     sheet_name="TSLA",
@@ -35,5 +36,7 @@ naas_drivers.gsheet.send(
 )
 ```
 
+## Official documentation
 
+{% embed url="https://github.com/melalj/gsheet-api" %}
 

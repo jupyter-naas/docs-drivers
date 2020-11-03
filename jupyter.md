@@ -4,7 +4,7 @@ description: Interact with Jupyter app
 
 # 🪐Jupyter
 
-{% embed url="https://jupyter.org/hub" %}
+{% embed url="https://jupyter.org/hub" caption="Website" %}
 
 ## Connect
 
@@ -91,4 +91,8 @@ jp.start_user(user)
 ```text
 jp.restart_user(user)
 ```
+
+## Official documentation
+
+{% embed url="https://jupyterhub.readthedocs.io/en/stable/reference/rest.html" %}
 

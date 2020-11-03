@@ -4,6 +4,8 @@ description: get data as Dataframe from yahoo
 
 # 💰Yahoo
 
+{% embed url="https://finance.yahoo.com/" caption="Website" %}
+
 ## Stock
 
 Get stock data
@@ -34,4 +36,8 @@ naas_drivers.yahoo.stock("TSLA", interval="1d")
 ma = [20,50] # max two value
 naas_drivers.plot.stock("TSLA", moving_averages=ma)
 ```
+
+## Official documentation
+
+{% embed url="https://rapidapi.com/apidojo/api/yahoo-finance1" %}
 

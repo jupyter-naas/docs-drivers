@@ -4,6 +4,8 @@ description: Create chart easily with plotly
 
 # 📊Plotly
 
+{% embed url="https://plotly.com/" caption="Website" %}
+
 ## Stock
 
 Create stock chart from Dataframe
@@ -107,4 +109,8 @@ filename = "Tesla.png" # can be png or html
 css = ".custom_css {color: white}"
 naas_drivers.plot.export(chart, "Tesla.png", css=css)
 ```
+
+## Official documentation:
+
+{% embed url="https://plotly.com/python/getting-started/" %}
 

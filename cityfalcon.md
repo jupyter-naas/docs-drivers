@@ -4,9 +4,7 @@ description: Connect to cityfalcon api and get a dataframe
 
 # 📰Cityfalcon
 
-### More details on official documentation:
-
-{% embed url="https://dev.cityfalcon.com/doc/api/v0.2" %}
+{% embed url="https://www.cityfalcon.com/" caption="Website" %}
 
 ## Connect
 
@@ -96,4 +94,8 @@ naas_drivers.cityfalcon.get("TSLA", time_filter=time_filter)
 ```python
 naas_drivers.cityfalcon.get("TSLA", languages="en")
 ```
+
+## Official documentation
+
+{% embed url="https://dev.cityfalcon.com/doc/api/v0.2" %}
 

@@ -4,9 +4,7 @@ description: Interact with Zappier app
 
 # ⚡️Zappier
 
-### More details on the documentation here:
-
-{% embed url="https://zapier.com/help/doc/how-get-started-webhooks-zapier" %}
+{% embed url="http://zappier.com/" caption="Website" %}
 
 ## WebHook
 
@@ -14,6 +12,10 @@ description: Interact with Zappier app
 import nass_drivers
 url = "https://zapier.com/hooks/catch/n/Lx2RH/"
 data = { "first_name":"Bryan", "last_name":"Helmig", "age": 27 }
-result = nass_drivers.zappier.webhook(url, data)
+result = nass_drivers.zappier.send(url, data)
 ```
+
+## Official documentation
+
+{% embed url="https://zapier.com/help/doc/how-get-started-webhooks-zapier" caption="Documentation" %}
 

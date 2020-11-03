@@ -4,9 +4,11 @@ description: Interact with toucan toco app
 
 # 📊Toucan Toco
 
-{% embed url="https://toucantoco.com/en/" %}
+{% embed url="https://toucantoco.com/en/" caption="Website" %}
 
 ## Version
+
+get the current version of app
 
 ```python
 naas_drivers.toucan.get_version()
@@ -221,4 +223,8 @@ username = "bob@cashstory.com"
 access = ("test", "viewer")
 naas_drivers.toucan.craft_token(username, access)
 ```
+
+## Official documentation
+
+{% embed url="https://docs.toucantoco.com/" caption="Documentation" %}
 

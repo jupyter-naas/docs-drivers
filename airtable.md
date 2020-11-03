@@ -4,9 +4,7 @@ description: Interact with Airtable app
 
 # 💨Airtable
 
-### More details on official documentation:
-
-{% embed url="https://airtable.com/api" %}
+{% embed url="https://airtable.com/" caption="Website" %}
 
 ## Connect
 
@@ -30,13 +28,13 @@ airtable = nass_drivers.airtable.connect('api_key', 'database_key', 'table_name'
 ## Get all
 
 ```python
-airtable.get_all(view='MyView', maxRecords=20)
+airtable.get(view='MyView', maxRecords=20)
 ```
 
 ## Insert
 
 ```python
-airtable.insert({'Name': 'Brian'})
+airtable.send({'Name': 'Brian'})
 ```
 
 ## Search
@@ -56,4 +54,8 @@ airtable.update_by_field('Name', 'Tom', {'Phone': '1234-4445'})
 ```python
 airtable.delete_by_field('Name', 'Tom')
 ```
+
+## Official documentation
+
+{% embed url="https://airtable.com/api" caption="Documentation" %}
 
