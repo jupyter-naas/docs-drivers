@@ -10,7 +10,7 @@ description: Interact with toucan toco app
 naas_drivers.toucan.get_version()
 ```
 
-## connect
+## Connect
 
 ```python
 import naas_drivers
