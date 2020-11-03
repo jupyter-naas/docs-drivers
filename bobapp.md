@@ -30,7 +30,82 @@ data = {"id": 1, ...}
 naas_drivers.bobapp.users.update(data)
 ```
 
+## Smarttable
+
+### Connect
+
+```python
+database = "database"
+collection = "collection"
+sm = naas_drivers.bobapp.connect_smarttable(database, collection)
+```
+
+### Get all
+
+#### Basic
+
+```python
+data = sm.get_all()
+```
+
+#### Get all
+
+Get all object with search query
+
+```python
+search = "test"
+data = sm.get_all(search)
+```
+
+#### Get all by page
+
+Get all object by page
+
+```python
+limit = 10
+skip = 20
+data = sm.get_all(skip, limit)
+```
+
+### Get
+
+Get one object by id
+
+```python
+id = "id"
+data = sm.get(id)
+```
+
+### Insert
+
+Insert one object
+
+```python
+data = {"id": 1, ...}
+sm.insert(data)
+```
+
+### Update
+
+Update one object
+
+```python
+data = {"id": 1, ...}
+sm.update(data)
+```
+
+### Delete
+
+Delete one object
+
+```python
+data = {"id": 1, ...}
+sm.delete(data)
+```
+
 ## Users
+
+Only available if you are connected with admin account
 
 ### Create
 
@@ -183,6 +258,8 @@ naas_drivers.bobapp.users.delete(data)
 
 ## Workspaces
 
+Only available if you are connected with admin account
+
 ### Get all
 
 #### Basic
@@ -246,76 +323,5 @@ data = {"id": 1, ...}
 naas_drivers.bobapp.workspaces.delete(data)
 ```
 
-## Smarttable
 
-### Connect
-
-```python
-database = "database"
-collection = "collection"
-sm = naas_drivers.bobapp.connect_smarttable(database, collection)
-```
-
-### Get all
-
-#### Basic
-
-```python
-data = sm.get_all()
-```
-
-#### Get all
-
-Get all object with search query
-
-```python
-search = "test"
-data = sm.get_all(search)
-```
-
-#### Get all by page
-
-Get all object by page
-
-```python
-limit = 10
-skip = 20
-data = sm.get_all(skip, limit)
-```
-
-### Get
-
-Get one object by id
-
-```python
-id = "id"
-data = sm.get(id)
-```
-
-### Insert
-
-Insert one object
-
-```python
-data = {"id": 1, ...}
-sm.insert(data)
-```
-
-### Update
-
-Update one object
-
-```python
-data = {"id": 1, ...}
-sm.update(data)
-```
-
-### Delete
-
-Delete one object
-
-```python
-data = {"id": 1, ...}
-sm.delete(data)
-```
 
