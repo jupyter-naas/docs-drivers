@@ -12,7 +12,7 @@ Give a data frame with theses columns
 
 Base data can come from Yahoo driver
 
-{% page-ref page="product-drivers/yahoo.md" %}
+{% page-ref page="yahoo.md" %}
 
 ## All
 
@@ -77,5 +77,5 @@ pr = naas_drivers.prediction.get(dataset=dataset, prediction_type="ARIMA", label
 
 Check more options on the link below
 
-{% page-ref page="product-drivers/chart.md" %}
+{% page-ref page="chart.md" %}
 

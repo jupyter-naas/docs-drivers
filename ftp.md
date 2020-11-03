@@ -46,7 +46,7 @@ dest_path = "/path/to/file/in/ftp"
 user = "my user"
 passwd = "my passwd"
 ftp = naas_drivers.ftp.connect(user, passwd)
-ftp.get(path, dest_path)
+ftp.send(path, dest_path)
 ```
 
 ## List file

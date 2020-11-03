@@ -2,7 +2,7 @@
 description: Get sentiment for each value in a column of the dataframe
 ---
 
-# 🥰Sentiment Analysis
+# 🥰Sentiment
 
 ```python
 dataset = pd.DataFrame(
