@@ -49,7 +49,7 @@ analytic = naas_drivers.toucan.get_users_analytics()
 analytic = naas_drivers.toucan.get_users()
 ```
 
-## Apps
+## Small Apps
 
 ### Report
 
