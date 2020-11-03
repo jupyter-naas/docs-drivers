@@ -18,21 +18,21 @@ this should connect to this docker machine :
 
 ```python
 key = "123456-123456-12455"
-naas_drivers.health_check.send(key, "start")
+naas_drivers.healthcheck.send(key, "start")
 ```
 
 ## Done
 
 ```python
 key = "123456-123456-12455"
-naas_drivers.health_check.send(key)
+naas_drivers.healthcheck.send(key)
 ```
 
 ## fail
 
 ```python
 key = "123456-123456-12455"
-naas_drivers.health_check.send(key, "fail")
+naas_drivers.healthcheck.send(key, "fail")
 ```
 
 ## Check url
