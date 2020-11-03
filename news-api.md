@@ -14,7 +14,7 @@ naas_drivers.newsapi.connect("API_KEY")
 
 ## Get
 
-### Action
+### Basic
 
 ```python
 naas_drivers.newsapi.get("TSLA")
