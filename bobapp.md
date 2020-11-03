@@ -4,8 +4,6 @@ description: Interact with toucan toco app
 
 # 👷‍♂️Bobapp
 
-Under construction
-
 ## Connect
 
 ```python
