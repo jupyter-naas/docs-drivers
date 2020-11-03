@@ -4,6 +4,8 @@ description: Fetch data from a sheet in google spreadsheet and get a dataframe
 
 # 📈Gsheets
 
+{% embed url="https://www.google.com/sheets/about/" %}
+
 ## Share your google sheet with service account
 
 For the driver to fetch the contents of your google sheet, you need to share it with the service account linked with **naas**.

@@ -4,6 +4,8 @@ description: Interact with toucan toco app
 
 # 📊Toucan Toco
 
+{% embed url="https://toucantoco.com/en/" %}
+
 ## Version
 
 ```python

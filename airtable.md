@@ -8,8 +8,6 @@ description: Interact with Airtable app
 
 {% embed url="https://airtable.com/api" %}
 
-
-
 ## Connect
 
 `apikey` can be generated in your account 

@@ -4,6 +4,8 @@ description: Interact with Jupyter app
 
 # 🪐Jupyter
 
+{% embed url="https://jupyter.org/hub" %}
+
 ## Connect
 
 You should get your token here

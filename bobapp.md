@@ -4,6 +4,8 @@ description: Interact with toucan toco app
 
 # 👷‍♂️Bobapp
 
+{% embed url="https://bobapp.ai/" %}
+
 ## Connect
 
 ```python
