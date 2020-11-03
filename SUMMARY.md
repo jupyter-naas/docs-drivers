@@ -10,10 +10,10 @@
 
 * [📰Cityfalcon](cityfalcon.md)
 * [📜Html](html.md)
+* [🆕 News api](news-api.md)
 * [📄Pdf](pdf.md)
 * [📊Plotly](chart.md)
 * [🔮Prediction](prediction.md)
-* [🆕 News api](news-api.md)
 * [🥰Sentiment](sentiment-analysis.md)
 * [💰Yahoo](yahoo.md)
 
@@ -33,8 +33,8 @@
 * [👷‍♂️Bobapp](bobapp.md)
 * [📂Ftp](ftp.md)
 * [📈Gsheets](gsheets.md)
-* [🥭MongoDb](mongodb.md)
 * [🪐Jupyter](jupyter.md)
+* [🥭MongoDb](mongodb.md)
 * [📊Toucan Toco](toucan.md)
 
 ## Main docs
