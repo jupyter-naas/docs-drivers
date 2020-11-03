@@ -4,71 +4,219 @@ description: Interact with toucan toco app
 
 # 📊Toucan Toco
 
-Under construction
+## Version
+
+```python
+naas_drivers.toucan.get_version()
+```
+
+## connect
+
+```python
+import naas_drivers
+url = "http://toucan.bobapp.ai/"
+username = "bob@cashstory.com" 
+password = "test"
+naas_drivers.toucan.connect(url, username, password)
+```
 
 ## Screenshots
 
-### generate\_folder\_name
+### App
 
-### generate\_screenshot\_name
+```python
+app_name = "test"
+naas_drivers.toucan.screenshots_app(app_name)
+```
 
-### screenshots\_app\_all
+### All App
 
-### screenshots\_app
+```python
+naas_drivers.toucan.screenshots_app_all()
+```
+
+## Users
+
+### Analytics
+
+```python
+analytic = naas_drivers.toucan.get_users_analytics()
+```
+
+### Get all
+
+```python
+analytic = naas_drivers.toucan.get_users()
+```
 
 ## Apps
 
-### Get
+### Report
 
-#### get\_version
+```python
+app_name = "test"
+report = naas_drivers.toucan.get_app_reports(app_name)
+```
 
-#### get\_app\_reports
+### Report Ids
 
-#### get\_app\_reports\_ids
+```python
+app_name = "test"
+report_ids = naas_drivers.toucan.get_app_reports_ids(app_name)
+```
 
-#### get\_report\_by\_name
+### Report by name
 
-#### get\_metadata
+```python
+app_name = "test"
+report = naas_drivers.toucan.get_report_by_name(app_name)
+```
 
-#### get\_data
+### Metadata
 
-#### get\_users\_analytics
+```python
+app_name = "test"
+stage="staging"
+metadata = naas_drivers.toucan.get_metadata(app_name, stage)
+```
 
-#### get\_users
+### Data domain
 
-#### get\_app\_data
+```python
+app_name = "test"
+domain = "101"
+stage="staging"
+data = naas_drivers.toucan.get_data(app_name, domain, stage)
+```
 
-#### get\_app\_config
+### Data
 
-#### get\_dashboard\_selector
+```python
+app_name = "test"
+data = naas_drivers.toucan.get_data(app_name)
+```
 
-#### download\_app\_config
+### Config
 
-### Load
+```python
+app_name = "test"
+config = naas_drivers.toucan.get_app_config(app_name)
+```
 
-#### load\_conf
+### Download Config
 
-#### load\_operations
+```python
+app_name = "test"
+format_file = "front_config"
+# format_file can be :
+# etl_config
+# report
+# dashboard-Group
+# augment.py
+# preprocess_validation
+# permissions.py
+# permissions_config
+# notifications_handlers.py
+stage = "staging"
+naas_drivers.toucan.download_app_config(app_name, format_file, stage)
+```
 
-### Send
+### Load config
 
-#### create\_small\_app
+```python
+app_name = "test"
+stage = "staging"
+config = naas_drivers.toucan.load_conf(app_name, stage)
+```
 
-#### send\_app\_config
+### Load Operations
 
-#### release\_conf
+```python
+app_name = "test"
+stage = "staging"
+notification = False,
+operations = [
+    "preprocess_data_sources",
+    "populate_basemaps",
+    "populate_reports",
+    "populate_dashboards",
+    "populate_permissions",
+]
+config = naas_drivers.toucan.load_conf(app_name, stage, notification, operations)
+```
 
-#### deploy\_app
+### Create small app
 
-### Rights
+```python
+app_name = "test"
+app_id = "test"
+config = naas_drivers.toucan.create_small_app(app_name, app_id)
+```
 
-#### is\_app\_allowed
+### Send config
 
+```python
+app_name = "test"
+file_upload = "/path/to/my/file"
+stage = "staging"
+format_file = "front_config"
+# format_file can be :
+# etl_config
+# report
+# dashboard-Group
+# augment.py
+# preprocess_validation
+# permissions.py
+# permissions_config
+# notifications_handlers.py
+naas_drivers.toucan.send_app_config(
+        app_name,
+        file_upload, 
+        format_file=format_file, 
+        stage=stage
+        )
 
+```
+
+### Release config
+
+```python
+app_name = "test"
+stage = "staging"
+naas_drivers.toucan.release_conf(app_name, stage)
+```
+
+### Deploy app
+
+```python
+app_name = "test"
+stage = "staging"
+operations=[
+    "preprocess_data_sources",
+    "populate_reports",
+    "populate_dashboards",
+    "release_design",
+]
+force=True
+naas_drivers.toucan.deploy_app(app_name, stage, operations, force)
+```
 
 ## Embed
 
-### craft\_toucan\_embed\_token
+```python
+small_app = "test"
+slide = "101"
+hosts=None # can be specific for security
+mode="webcomponent" #can be iframe or webcomponent
+height="800px"
+naas_drivers.toucan.embed(small_app, slide, hosts, mode, height)
+```
 
-### embed\_small\_app\_slide
+## Craft token
+
+```python
+username = "bob@cashstory.com"
+access = ("test", "viewer")
+naas_drivers.toucan.craft_token(username, access)
+```
 
