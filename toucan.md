@@ -8,6 +8,10 @@ description: Interact with toucan toco app
 
 ## Connect
 
+{% hint style="danger" %}
+You must Connect before any other methods
+{% endhint %}
+
 ```python
 import naas_drivers
 url = "http://toucan.bobapp.ai/"

@@ -8,6 +8,10 @@ description: Fetch data from a mongodb and get a dataframe
 
 ## Connect
 
+{% hint style="danger" %}
+You must Connect before any other methods
+{% endhint %}
+
 ```python
  user = "my user"
  passwd = "my passwd"

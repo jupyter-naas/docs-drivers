@@ -6,6 +6,10 @@ description: Connect to your ftp server
 
 ## Connect
 
+{% hint style="danger" %}
+You must Connect before any other methods
+{% endhint %}
+
 ```python
  user = "my user"
  passwd = "my passwd"

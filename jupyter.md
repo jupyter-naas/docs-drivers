@@ -8,6 +8,10 @@ description: Interact with Jupyter app
 
 ## Connect
 
+{% hint style="danger" %}
+You must Connect before any other methods
+{% endhint %}
+
 You should get your token here
 
 {% embed url="https://app.naas.ai/hub/token" %}

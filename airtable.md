@@ -8,6 +8,10 @@ description: Interact with Airtable app
 
 ## Connect
 
+{% hint style="danger" %}
+You must Connect before any other methods
+{% endhint %}
+
 `apikey` can be generated in your account 
 
 ![Screenshot of account API section](.gitbook/assets/screenshot-2020-11-02-at-13.34.30.png)

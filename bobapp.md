@@ -8,6 +8,10 @@ description: Interact with toucan toco app
 
 ## Connect
 
+{% hint style="danger" %}
+You must Connect before any other methods
+{% endhint %}
+
 ```python
 api_key = "you can find it in your bobapp account"
 naas_drivers.bobapp.connect(api_key)
