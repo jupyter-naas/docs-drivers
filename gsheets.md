@@ -18,6 +18,10 @@ Now you can fetch data from the sheet as a pandas dataframe.
 
 ## Connect
 
+{% hint style="danger" %}
+You must Connect before any other methods
+{% endhint %}
+
 ```python
 import nass_drivers
 spreadsheet_id = "idd"

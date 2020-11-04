@@ -8,6 +8,10 @@ description: Connect to news api and get a dataframe
 
 ## Connect
 
+{% hint style="danger" %}
+You must Connect before any other methods
+{% endhint %}
+
 ```python
 naas_drivers.newsapi.connect("YOUR_API_KEY")
 # You can use our default apikey limited to 200/hours request for all users 
