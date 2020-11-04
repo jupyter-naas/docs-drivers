@@ -28,7 +28,8 @@ naas_drivers.sentiment.get(
 Define if sentiment is `positif`, `neutral` or `negatif`
 
 ```python
-sentiment = 0.05
+sentiment = 0.03
 result = naas_drivers.sentiment.categorize(sentiment)
+# result = 'neutral'
 ```
 
