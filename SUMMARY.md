@@ -15,7 +15,7 @@
 * [📊Plotly](chart.md)
 * [🔮Prediction](prediction.md)
 * [🥰Sentiment](sentiment-analysis.md)
-* [💰Yahoo](yahoo.md)
+* [💰Yahoo Finance](yahoo.md)
 
 ## Drivers Out
 
