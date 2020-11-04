@@ -9,7 +9,9 @@ description: Connect to news api and get a dataframe
 ## Connect
 
 ```python
-naas_drivers.newsapi.connect("API_KEY")
+naas_drivers.newsapi.connect("YOUR_API_KEY")
+# You can use our default apikey limited to 200/hours request for all users 
+naas_drivers.newsapi.connect()
 ```
 
 ## Get

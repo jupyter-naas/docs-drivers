@@ -9,7 +9,9 @@ description: Connect to cityfalcon api and get a dataframe
 ## Connect
 
 ```python
-naas_drivers.cityfalcon.connect("API_KEY")
+naas_drivers.cityfalcon.connect("YOUR_API_KEY")
+# You can use our default apikey limited to 200/hours request for all users 
+naas_drivers.cityfalcon.connect()
 ```
 
 ## Get
