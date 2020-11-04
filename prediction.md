@@ -45,26 +45,16 @@ pr = naas_drivers.prediction.get(dataset=dataset, prediction_type="ARIMA")
 
 ## Options
 
-*  `label`:  
-   _**The actual value that is to be predict.**_ 
+*  `dataset` : the dataset in dataframe format
+* `label`: The exact name of the column that is to be predicted, from the dataset
+*  `date_column`:_The date range from the dataset. Will be used as the output index._
+* `prediction_type`: _Can be ARIMA,_ LINEAR, SVR or COMPOUND
+* `data_points` ****\(optional\)**:** number of days to predict
+* `concact_label` \(optional\): A column name who will generate a concated frame with past and future data.
 
-  ```text
-    Type: String
-    Expected Value: The exact name of the column that is to be predicted, from the dataset.
-  ```
-
-*  `date_column`:  
-   _**The date range from the dataset. Will be used as the output index.**_  
-
-
-  ```text
-    Type: String
-    Expected Value: The exact name of the date column from the dataset.
-  ```
-
-```text
+```python
 dataset = naas_drivers.yahoo.stock("TSLA")
-pr = naas_drivers.prediction.get(dataset=dataset, prediction_type="ARIMA", label="Open", date_column="Date")
+pr = naas_drivers.prediction.get(dataset=dataset)
 ```
 
 ## Plot
