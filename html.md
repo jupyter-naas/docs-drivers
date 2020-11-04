@@ -140,7 +140,17 @@ naas_drivers.html.table(data)
 
 ### Dataframe
 
+{% hint style="info" %}
+The drivers will try to transform all your column with they column title
+{% endhint %}
 
+{% hint style="success" %}
+you can pass parameters with`_ exemple: text_14px link_Read`
+{% endhint %}
+
+
+
+\`\`
 
 ```python
 data = pandas.DataFrame()
