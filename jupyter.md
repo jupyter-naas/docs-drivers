@@ -53,7 +53,6 @@ user = jp.get_user(email)
 Only Naas super admin can do it 
 
 ```text
-create_user
 email = "bob@cashstory.com"
 password = "****"
 super_admin_token = "*****"
