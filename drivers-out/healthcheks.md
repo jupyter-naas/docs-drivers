@@ -14,33 +14,40 @@ this should connect to this docker machine :
 
 {% embed url="https://hub.docker.com/r/galexrt/healthchecks/" %}
 
-## Start
+## Connect
+
+{% hint style="danger" %}
+You must Connect before any other methods
+{% endhint %}
 
 ```python
 key = "123456-123456-12455"
-naas_drivers.healthcheck.send(key, "start")
+naas_drivers.healthcheck.connect(key)
+```
+
+## Start
+
+```python
+naas_drivers.healthcheck.send("start")
 ```
 
 ## Done
 
 ```python
-key = "123456-123456-12455"
-naas_drivers.healthcheck.send(key)
+naas_drivers.healthcheck.send()
 ```
 
 ## fail
 
 ```python
-key = "123456-123456-12455"
-naas_drivers.healthcheck.send(key, "fail")
+naas_drivers.healthcheck.send("fail")
 ```
 
 ## Check url
 
 ```python
 url = "https://google.com"
-key = "123456-123456-12455"
-naas_drivers.health_check.check_up(url, key)
+naas_drivers.health_check.check_up(url)
 ```
 
 ## Official documentation
