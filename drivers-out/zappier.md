@@ -9,7 +9,7 @@ description: Interact with Zapier app
 ## WebHook
 
 ```python
-import nass_drivers
+import naas_drivers
 url = "https://zapier.com/hooks/catch/n/Lx2RH/"
 data = { "first_name":"Bryan", "last_name":"Helmig", "age": 27 }
 result = nass_drivers.zappier.send(url, data)
