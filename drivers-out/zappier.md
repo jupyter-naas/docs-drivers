@@ -1,8 +1,8 @@
 ---
-description: Interact with Zappier app
+description: Interact with Zapier app
 ---
 
-# ⚡️Zappier
+# ⚡️Zapier
 
 {% embed url="http://zappier.com/" caption="Website" %}
 

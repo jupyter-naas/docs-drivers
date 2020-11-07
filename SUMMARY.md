@@ -23,7 +23,7 @@
 * [⛑Healthcheks](drivers-out/healthcheks.md)
 * [➕IFTTT](drivers-out/ifttt.md)
 * [🤖 Integromat](drivers-out/integromat.md)
-* [⚡️Zappier](drivers-out/zappier.md)
+* [⚡️Zapier](drivers-out/zappier.md)
 
 ## Drivers In Out
 

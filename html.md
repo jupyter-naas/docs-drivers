@@ -1,5 +1,5 @@
 ---
-description: Buil html easily for emails or webpages
+description: Build HTML easily for emails or webpages
 ---
 
 # 📜Html
