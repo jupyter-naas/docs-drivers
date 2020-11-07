@@ -2,7 +2,7 @@
 description: Interact with Bubble app
 ---
 
-# 🛁Bubble
+# 🛁 Bubble
 
 {% embed url="https://bubble.io" caption="Website" %}
 

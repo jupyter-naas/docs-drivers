@@ -19,7 +19,7 @@
 
 ## Drivers Out
 
-* [🛁Bubble](drivers-out/bubble.md)
+* [🛁 Bubble](drivers-out/bubble.md)
 * [⛑Healthcheks](drivers-out/healthcheks.md)
 * [➕IFTTT](drivers-out/ifttt.md)
 * [🤖 Integromat](drivers-out/integromat.md)
