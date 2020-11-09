@@ -16,27 +16,17 @@ For the driver to fetch the contents of your google sheet, you need to share it 
 
 Now you can fetch data from the sheet as a pandas dataframe.
 
-## Connect
-
-{% hint style="danger" %}
-You must Connect before any other methods
-{% endhint %}
+## Get
 
 ```python
 import nass_drivers
 spreadsheet_id = "idd"
-airtable = nass_drivers.gsheet.connect(spreadsheet_id)
-```
-
-## Get data
-
-```python
-naas_drivers.gsheet.get(
-    sheet_name="TSLA"
+naas_drivers.gsheet.connect(spreadsheet_id).get(
+    sheet_name="name"
 )
 ```
 
-## Send data
+## Send
 
 ```python
 data = [{ "name": "Jean", "email": "jean@appleseed.com" }, { "name": "Bunny", "email": "bunny@appleseed.com" }]
@@ -44,6 +34,19 @@ naas_drivers.gsheet.send(
     sheet_name="TSLA",
     data
 )
+```
+
+## Connect
+
+{% hint style="warning" %}
+You can also save your connection and don't repeat it for each method.
+{% endhint %}
+
+```python
+gsheet = naas_drivers.gsheet.connect("spreadsheet_id")
+
+name_1 = cityfalcon.get("name_1")
+name_2 = cityfalcon.get("name_2")
 ```
 
 ## Official documentation
