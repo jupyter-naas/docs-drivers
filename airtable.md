@@ -6,13 +6,11 @@ description: Interact with Airtable app
 
 {% embed url="https://airtable.com/" caption="Website" %}
 
-## Connect
+`apikey` should be generated in your account :
 
-{% hint style="danger" %}
-You must Connect before any other methods
-{% endhint %}
+{% embed url="https://airtable.com/account" %}
 
-`apikey` can be generated in your account 
+You should find it there:
 
 ![Screenshot of account API section](.gitbook/assets/screenshot-2020-11-02-at-13.34.30.png)
 
@@ -24,39 +22,79 @@ then go on the upper link and choose the workspace you wanna connect and on the 
 
 `table_name` is the value after the last `/` 
 
+## Get
+
 ```python
 import nass_drivers
-airtable = nass_drivers.airtable.connect('api_key', 'database_key', 'table_name')
+api_key = "******"
+database_key = "appuBFPzX94pEqXUJ"
+table_name = "Opportunities"
+data = nass_drivers.airtable
+        .connect(api_key, database_key, table_name)
+        .get(view='MyView', maxRecords=20)
 ```
 
-## Get all
+## Send
 
 ```python
-airtable.get(view='MyView', maxRecords=20)
-```
-
-## Insert
-
-```python
-airtable.send({'Name': 'Brian'})
+import nass_drivers
+api_key = "******"
+database_key = "appuBFPzX94pEqXUJ"
+table_name = "Opportunities"
+data = nass_drivers.airtable
+        .connect(api_key, database_key, table_name)
+        .send({'Name': 'Brian'})
 ```
 
 ## Search
 
 ```python
-airtable.search('Name', 'Tom')
+import nass_drivers
+api_key = "******"
+database_key = "appuBFPzX94pEqXUJ"
+table_name = "Opportunities"
+data = nass_drivers.airtable
+        .connect(api_key, database_key, table_name)
+        .search('Name', 'Tom')
 ```
 
 ## Update
 
 ```python
-airtable.update_by_field('Name', 'Tom', {'Phone': '1234-4445'})
+import nass_drivers
+api_key = "******"
+database_key = "appuBFPzX94pEqXUJ"
+table_name = "Opportunities"
+data = nass_drivers.airtable
+        .connect(api_key, database_key, table_name)
+        .update_by_field('Name', 'Tom', {'Phone': '1234-4445'})
 ```
 
 ## Delete
 
 ```python
-airtable.delete_by_field('Name', 'Tom')
+import nass_drivers
+api_key = "******"
+database_key = "appuBFPzX94pEqXUJ"
+table_name = "Opportunities"
+data = nass_drivers.airtable
+        .connect(api_key, database_key, table_name)
+        .delete_by_field('Name', 'Tom')
+```
+
+## Connect
+
+{% hint style="warning" %}
+You can also save your connection and don't repeat it for each method.
+{% endhint %}
+
+```python
+import nass_drivers
+api_key = "******"
+database_key = "appuBFPzX94pEqXUJ"
+table_name = "Opportunities"
+airtable = nass_drivers.airtable.connect(api_key, database_key, table_name)
+data = airtable.get(view='MyView', maxRecords=20)
 ```
 
 ## Official documentation

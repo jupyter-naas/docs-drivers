@@ -14,43 +14,50 @@ this should connect to this docker machine :
 
 {% embed url="https://hub.docker.com/r/galexrt/healthchecks/" %}
 
-## Connect
-
-{% hint style="danger" %}
-You must Connect before any other methods
-{% endhint %}
-
-```python
-key = "123456-123456-12455"
-naas_drivers.healthcheck.connect(key)
-```
-
 ## Start
 
 ```python
-naas_drivers.healthcheck.send("start")
+key = "123456-123456-12455"
+naas_drivers.healthcheck.connect(key).send("start")
 ```
 
 ## Done
 
 ```python
-naas_drivers.healthcheck.send()
+key = "123456-123456-12455"
+naas_drivers.healthcheck.connect(key).send()
 ```
 
 ## fail
 
 ```python
-naas_drivers.healthcheck.send("fail")
+key = "123456-123456-12455"
+naas_drivers.healthcheck.connect(key).send("fail")
 ```
 
 ## Check url
 
 ```python
 url = "https://google.com"
-naas_drivers.health_check.check_up(url)
+key = "123456-123456-12455"
+naas_drivers.health_check.connect(key).check_up(url)
+```
+
+## Connect
+
+{% hint style="warning" %}
+You can also save your connection and don't repeat it for each method.
+{% endhint %}
+
+```python
+key = "123456-123456-12455"
+healthcheck = naas_drivers.healthcheck.connect(key)
+healthcheck.send()
 ```
 
 ## Official documentation
+
+
 
 {% embed url="https://healthchecks.io/docs" %}
 
