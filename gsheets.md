@@ -30,7 +30,8 @@ naas_drivers.gsheet.connect(spreadsheet_id).get(
 
 ```python
 data = [{ "name": "Jean", "email": "jean@appleseed.com" }, { "name": "Bunny", "email": "bunny@appleseed.com" }]
-naas_drivers.gsheet.send(
+spreadsheet_id = "idd"
+naas_drivers.gsheet.connect(spreadsheet_id).send(
     sheet_name="TSLA",
     data
 )
