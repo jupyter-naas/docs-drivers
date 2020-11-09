@@ -6,24 +6,12 @@ description: Connect to cityfalcon api and get a dataframe
 
 {% embed url="https://www.cityfalcon.com/" caption="Website" %}
 
-## Connect
-
-{% hint style="danger" %}
-You must Connect before any other methods
-{% endhint %}
-
-```python
-naas_drivers.cityfalcon.connect("YOUR_API_KEY")
-# You can use our default apikey limited to 200/hours request for all users 
-naas_drivers.cityfalcon.connect()
-```
-
 ## Get
 
 ### Action
 
 ```python
-naas_drivers.cityfalcon.get("TSLA")
+naas_drivers.cityfalcon.connect("YOUR_API_KEY").get("TSLA")
 ```
 
 ### Fields
@@ -42,7 +30,7 @@ Choose fields you want to get in result, list available below:
 
 ```python
 fields = ["image", "title"]
-naas_drivers.cityfalcon.get("TSLA", fields=fields)
+naas_drivers.cityfalcon.connect("YOUR_API_KEY").get("TSLA", fields=fields)
 ```
 
 ### Country
@@ -51,7 +39,7 @@ Country of stock exange
 
 ```python
 country = "US"
-naas_drivers.cityfalcon.get("TSLA", country=country)
+naas_drivers.cityfalcon.connect("YOUR_API_KEY").get("TSLA", country=country)
 ```
 
 ### Limit
@@ -60,7 +48,7 @@ Limit the number of result
 
 ```python
 limit = 5
-naas_drivers.cityfalcon.get("TSLA", limit=limit)
+naas_drivers.cityfalcon.connect("YOUR_API_KEY").get("TSLA", limit=limit)
 ```
 
 ### Minimum Score
@@ -69,7 +57,7 @@ minimum Score of Cityfalcon
 
 ```python
 min_score = 30
-naas_drivers.cityfalcon.get("TSLA", min_score=min_score)
+naas_drivers.cityfalcon.connect("YOUR_API_KEY").get("TSLA", min_score=min_score)
 ```
 
 ### Paywall
@@ -78,27 +66,42 @@ Show article with paywall
 
 ```python
 paywall = True
-naas_drivers.cityfalcon.get("TSLA", paywall=paywall)
+naas_drivers.cityfalcon.connect("YOUR_API_KEY").get("TSLA", paywall=paywall)
 ```
 
 ### Identifier\_type
 
 ```python
 identifier_type = "full_tickers"
-naas_drivers.cityfalcon.get("TSLA", identifier_type=identifier_type)
+naas_drivers.cityfalcon.connect("YOUR_API_KEY").get("TSLA", identifier_type=identifier_type)
 ```
 
 ### Time\_filter
 
 ```python
 time_filter = "d21"
-naas_drivers.cityfalcon.get("TSLA", time_filter=time_filter)
+naas_drivers.cityfalcon.connect("YOUR_API_KEY").get("TSLA", time_filter=time_filter)
 ```
 
 ### Language
 
 ```python
-naas_drivers.cityfalcon.get("TSLA", languages="en")
+naas_drivers.cityfalcon.connect("YOUR_API_KEY").get("TSLA", languages="en")
+```
+
+## Connect
+
+{% hint style="warning" %}
+You can also save your connection and don't repeat it for each method.
+{% endhint %}
+
+```python
+naas_drivers.cityfalcon.connect("YOUR_API_KEY")
+# You can use our default apikey limited to 200/hours request for all users
+
+cityfalcon = naas_drivers.cityfalcon.connect()
+appl = cityfalcon.get("AAPL")
+tsla = cityfalcon.get("TSLA")
 ```
 
 ## Official documentation
