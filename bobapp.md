@@ -82,9 +82,9 @@ id = "id"
 data = sm.get(id)
 ```
 
-### Insert
+### Send
 
-Insert one object
+Send one object
 
 ```python
 data = {"id": 1, ...}
@@ -209,7 +209,7 @@ data = naas_drivers.bobapp.users.get_all()
 
 #### Get all
 
-Get all object with search query
+Get all user with search query
 
 ```python
 search = "test"
@@ -218,7 +218,7 @@ data = naas_drivers.bobapp.users.get_all(search)
 
 #### Get all by page
 
-Get all object by page
+Get all user by page
 
 ```python
 limit = 10
@@ -228,16 +228,16 @@ data = naas_drivers.bobapp.users.get_all(skip, limit)
 
 ### Get
 
-Get one object by id
+Get one user by id
 
 ```python
 id = "id"
 data = naas_drivers.bobapp.users.get(id)
 ```
 
-### Insert
+### Send
 
-Insert one object
+Send one user
 
 ```python
 data = {"id": 1, ...}
@@ -246,7 +246,7 @@ naas_drivers.bobapp.users.insert(data)
 
 ### Update
 
-Update one object
+Update one user
 
 ```python
 data = {"id": 1, ...}
@@ -255,7 +255,7 @@ naas_drivers.bobapp.users.update(data)
 
 ### Delete
 
-Delete one object
+Delete one user
 
 ```python
 data = {"id": 1, ...}
@@ -276,7 +276,7 @@ data = naas_drivers.bobapp.workspaces.get_all()
 
 #### Get all
 
-Get all object with search query
+Get all workspace with search query
 
 ```python
 search = "test"
@@ -285,7 +285,7 @@ data = naas_drivers.bobapp.workspaces.get_all(search)
 
 #### Get all by page
 
-Get all object by page
+Get all workspace by page
 
 ```python
 limit = 10
@@ -295,16 +295,16 @@ data = naas_drivers.bobapp.workspaces.get_all(skip, limit)
 
 ### Get
 
-Get one object by id
+Get one workspace by id
 
 ```python
 id = "id"
 data = naas_drivers.bobapp.workspaces.get(id)
 ```
 
-### Insert
+### Send
 
-Insert one object
+Send one workspace
 
 ```python
 data = {"id": 1, ...}
@@ -313,7 +313,7 @@ naas_drivers.bobapp.workspaces.insert(data)
 
 ### Update
 
-Update one object
+Update one workspace
 
 ```python
 data = {"id": 1, ...}
@@ -322,7 +322,7 @@ naas_drivers.bobapp.workspaces.update(data)
 
 ### Delete
 
-Delete one object
+Delete one workspace
 
 ```python
 data = {"id": 1, ...}
