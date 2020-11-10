@@ -26,9 +26,52 @@ Python can be use by developpers, or in _low code_ way.
 
 ### Simple formula to interact with powerfull tools.
 
+## Version
 
+### Get
 
+the version number in your local machine
 
+```python
+import naas_drivers
+naas_drivers.version()
+```
+
+### Are you at the last version
+
+```python
+import naas_drivers
+
+naas_drivers.up_to_date()
+```
+
+### Get remote version
+
+the last version number in Github
+
+```python
+import naas_drivers
+naas_drivers.get_last_version()
+```
+
+## Documentation
+
+Show a button to quick open this documentation from Jupyter
+
+```python
+import naas_drivers
+naas_drivers.doc()
+```
+
+## Feature request
+
+show feature request inside Jupyter
+
+```python
+import naas
+mode = "naas_drivers" # can be naas, naas_drivers, awesome_notebook
+naas.feature_request(mode)
+```
 
 
 
