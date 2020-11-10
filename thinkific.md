@@ -70,6 +70,19 @@ naas_drivers.thinkific.connect(api_key).users.delete(
 )
 ```
 
+## Connect
+
+{% hint style="warning" %}
+You can also save your connection and don't repeat it for each method.
+{% endhint %}
+
+```python
+import nass_drivers
+api_key = "api_key"
+canny = nass_drivers.thinkific.connect(api_key)
+data = thinkific.users.get()
+```
+
 ## Official documentation
 
 {% embed url="https://developers.thinkific.com/api/api-documentation/\#/" %}
