@@ -1,5 +1,5 @@
 ---
-description: Latest version 0.24.4
+description: Latest version 0.30.1
 ---
 
 # 👍Updates
@@ -20,6 +20,249 @@ naas.update()
 ```
 
 ## Changelog
+
+### 0.30.1 \(2020-11-10\)
+
+#### Fix
+
+* **html**: connector
+
+### 0.30.0 \(2020-11-09\)
+
+#### Feat
+
+* **jupyter**: add list and delete users
+
+### 0.29.3 \(2020-11-09\)
+
+#### Fix
+
+* remove docker build
+
+### 0.29.2 \(2020-11-09\)
+
+#### Fix
+
+* **bobapp**: use send instead of insert
+
+### 0.29.1 \(2020-11-09\)
+
+#### Fix
+
+* bobapp print
+
+### 0.29.0 \(2020-11-09\)
+
+#### Feat
+
+* add canny
+
+### 0.28.1 \(2020-11-09\)
+
+#### Fix
+
+* add print when file creating
+
+### 0.28.0 \(2020-11-09\)
+
+#### Feat
+
+* **html**: add utils
+
+### 0.27.2 \(2020-11-09\)
+
+#### Fix
+
+* connect return self
+* **gsheet**: fix connect
+
+### 0.27.1 \(2020-11-09\)
+
+#### Fix
+
+* **bobapp**: create\_or\_update function
+
+### 0.27.0 \(2020-11-04\)
+
+#### Feat
+
+* **html**: table
+
+### 0.26.1 \(2020-11-04\)
+
+#### Fix
+
+* **html**: padding
+
+### 0.26.0 \(2020-11-04\)
+
+#### Feat
+
+* **plotly**: allow show or not graph
+* **prediction**: add concat\_label feature
+
+### 0.25.6 \(2020-11-04\)
+
+#### Fix
+
+* **plotly**: colors for ma20 ma50
+
+### 0.25.5 \(2020-11-04\)
+
+#### Fix
+
+* **plotly**: allow any moving average
+
+### 0.25.4 \(2020-11-04\)
+
+#### Fix
+
+* bobapp remove token in services
+
+### 0.25.3 \(2020-11-04\)
+
+#### Fix
+
+* **jupyter**: create\_user
+
+### 0.25.2 \(2020-11-04\)
+
+#### Fix
+
+* allow connect default api newapi cityfalcon
+
+### 0.25.1 \(2020-11-04\)
+
+#### Fix
+
+* **cityfalcon**: change default field for logo
+
+### 0.25.0 \(2020-11-04\)
+
+#### Feat
+
+* **optimise**: add optimise lib for eavy df
+
+### 0.24.24 \(2020-11-04\)
+
+#### Fix
+
+* **cityfalcon**: add wrong field name when error
+
+### 0.24.23 \(2020-11-04\)
+
+#### Fix
+
+* error in mongo connector
+
+### 0.24.22 \(2020-11-03\)
+
+#### Fix
+
+* **mongo**: allow get client
+
+### 0.24.21 \(2020-11-03\)
+
+#### Fix
+
+* import errors
+
+### 0.24.20 \(2020-11-03\)
+
+#### Fix
+
+* setup config
+
+### 0.24.19 \(2020-11-03\)
+
+#### Fix
+
+* import
+
+### 0.24.18 \(2020-11-03\)
+
+#### Fix
+
+* path import
+
+### 0.24.17 \(2020-11-03\)
+
+#### Fix
+
+* build
+
+### 0.24.16 \(2020-11-03\)
+
+#### Fix
+
+* **ftp**: code smell
+
+### 0.24.15 \(2020-11-03\)
+
+#### Fix
+
+* code smells
+
+### 0.24.14 \(2020-11-03\)
+
+#### Fix
+
+* code smells
+* code smells use const
+
+### 0.24.13 \(2020-11-03\)
+
+#### Fix
+
+* error class naming
+
+### 0.24.12 \(2020-11-03\)
+
+#### Fix
+
+* code smells
+
+### 0.24.11 \(2020-11-03\)
+
+#### Fix
+
+* **plotly**: add missing self
+
+### 0.24.10 \(2020-11-03\)
+
+#### Fix
+
+* code smells prediction
+
+### 0.24.9 \(2020-11-03\)
+
+#### Fix
+
+* code smells Out\_Driver
+
+### 0.24.8 \(2020-11-03\)
+
+#### Fix
+
+* **toucan**: code smel
+
+### 0.24.7 \(2020-11-03\)
+
+#### Fix
+
+* error
+
+### 0.24.6 \(2020-11-03\)
+
+#### Fix
+
+* halthchecks
+
+### 0.24.5 \(2020-11-03\)
+
+#### Fix
+
+* naming
 
 ### 0.24.4 \(2020-11-03\)
 
