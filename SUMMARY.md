@@ -31,6 +31,7 @@
 
 * [💨Airtable](airtable.md)
 * [👷‍♂️Bobapp](bobapp.md)
+* [🥫Canny](canny.md)
 * [📂Ftp](ftp.md)
 * [📈Gsheets](gsheets.md)
 * [🪐Jupyter](jupyter.md)
