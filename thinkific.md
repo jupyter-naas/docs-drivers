@@ -1,5 +1,5 @@
 ---
-description: Interact with canny app
+description: Interact with Thinkific app
 ---
 
 # 📚Thinkific
