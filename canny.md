@@ -13,7 +13,7 @@ description: Interact with canny app
 ```python
 import nass_drivers
 api_key = "api_key"
-naas_drivers.canny.connect(api_key).get(
+naas_drivers.canny.connect(api_key).users.get(
     uid="uid"
 )
 ```
@@ -23,7 +23,7 @@ naas_drivers.canny.connect(api_key).get(
 ```python
 import nass_drivers
 api_key = "api_key"
-naas_drivers.canny.connect(api_key).get(
+naas_drivers.canny.connect(api_key).send(
     email="bob@cashstory.com"
 )
 ```

@@ -37,6 +37,7 @@
 * [🪐Jupyter](jupyter.md)
 * [🥭MongoDB](mongodb.md)
 * [📊Toucan Toco](toucan.md)
+* [📚Thinkific](thinkific.md)
 
 ## Main docs
 
