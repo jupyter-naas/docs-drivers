@@ -4,7 +4,7 @@ description: Interact with canny app
 
 # 🥫Canny
 
-{% embed url="https://developers.canny.io/api-reference" %}
+{% embed url="https://developers.canny.io/api-reference" caption="Website" %}
 
 ## Users
 
@@ -63,7 +63,7 @@ data = canny.users.get()
 
 ## Official documentation
 
-{% embed url="https://canny.io/" %}
+{% embed url="https://canny.io/" caption="Doc api" %}
 
 
 

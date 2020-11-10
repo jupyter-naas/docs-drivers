@@ -4,7 +4,7 @@ description: Interact with canny app
 
 # 📚Thinkific
 
-{% embed url="https://www.thinkific.com" %}
+{% embed url="https://www.thinkific.com" caption="Website" %}
 
 ## Users
 
@@ -85,7 +85,7 @@ data = thinkific.users.get()
 
 ## Official documentation
 
-{% embed url="https://developers.thinkific.com/api/api-documentation/\#/" %}
+{% embed url="https://developers.thinkific.com/api/api-documentation/\#/" caption="Doc api" %}
 
 
 
