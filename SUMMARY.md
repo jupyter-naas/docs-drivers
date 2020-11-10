@@ -36,8 +36,8 @@
 * [📈Gsheets](gsheets.md)
 * [🪐Jupyter](jupyter.md)
 * [🥭MongoDB](mongodb.md)
-* [📊Toucan Toco](toucan.md)
 * [📚Thinkific](thinkific.md)
+* [📊Toucan Toco](toucan.md)
 
 ## Main docs
 
