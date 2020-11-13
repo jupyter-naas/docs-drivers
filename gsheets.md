@@ -2,7 +2,7 @@
 description: Fetch data from a sheet in google spreadsheet and get a dataframe
 ---
 
-# 📈Gsheets
+# 📈 Gsheets
 
 {% embed url="https://www.google.com/sheets/about/" %}
 

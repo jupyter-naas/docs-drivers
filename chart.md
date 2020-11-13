@@ -2,7 +2,7 @@
 description: Create chart easily with plotly
 ---
 
-# 📊Plotly
+# 📊 Plotly
 
 {% embed url="https://plotly.com/" caption="Website" %}
 

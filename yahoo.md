@@ -2,7 +2,7 @@
 description: get data as Dataframe from yahoo
 ---
 
-# 💰Yahoo Finance
+# 💰 Yahoo Finance
 
 {% embed url="https://finance.yahoo.com/" caption="Website" %}
 

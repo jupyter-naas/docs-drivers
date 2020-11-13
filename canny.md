@@ -2,7 +2,7 @@
 description: Interact with Canny app
 ---
 
-# 🥫Canny
+# 🥫 Canny
 
 {% embed url="https://developers.canny.io/api-reference" caption="Website" %}
 

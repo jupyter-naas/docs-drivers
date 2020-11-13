@@ -2,7 +2,7 @@
 description: Connect to cityfalcon api and get a dataframe
 ---
 
-# 📰Cityfalcon
+# 📰 Cityfalcon
 
 {% embed url="https://www.cityfalcon.com/" caption="Website" %}
 

@@ -2,7 +2,7 @@
 description: Build HTML easily for emails or webpages
 ---
 
-# 📜Html
+# 📜 Html
 
 ## Title
 

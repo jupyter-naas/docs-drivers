@@ -8,14 +8,14 @@
 
 ---
 
-* [📰Cityfalcon](cityfalcon.md)
-* [📜Html](html.md)
-* [🆕 News api](news-api.md)
-* [📄Pdf](pdf.md)
-* [📊Plotly](chart.md)
-* [🔮Prediction](prediction.md)
-* [🥰Sentiment](sentiment-analysis.md)
-* [💰Yahoo Finance](yahoo.md)
+* [📰 Cityfalcon](cityfalcon.md)
+* [📜 Html](html.md)
+* [🆕  News api](news-api.md)
+* [📄 Pdf](pdf.md)
+* [📊 Plotly](chart.md)
+* [🔮 Prediction](prediction.md)
+* [🥰 Sentiment](sentiment-analysis.md)
+* [💰 Yahoo Finance](yahoo.md)
 
 ## Drivers Out
 
@@ -32,9 +32,9 @@
 
 * [💨Airtable](airtable.md)
 * [👷‍♂️Bobapp](bobapp.md)
-* [🥫Canny](canny.md)
-* [📂Ftp](ftp.md)
-* [📈Gsheets](gsheets.md)
+* [🥫 Canny](canny.md)
+* [📂 Ftp](ftp.md)
+* [📈 Gsheets](gsheets.md)
 * [🪐Jupyter](jupyter.md)
 * [🥭MongoDB](mongodb.md)
 * [📚Thinkific](thinkific.md)

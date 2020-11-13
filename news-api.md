@@ -2,7 +2,7 @@
 description: Connect to news api and get a dataframe
 ---
 
-# 🆕 News api
+# 🆕  News api
 
 {% embed url="https://newsapi.org/" caption="Website" %}
 

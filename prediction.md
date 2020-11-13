@@ -2,7 +2,7 @@
 description: Predict the time series data
 ---
 
-# 🔮Prediction
+# 🔮 Prediction
 
 Give a data frame with theses columns
 
