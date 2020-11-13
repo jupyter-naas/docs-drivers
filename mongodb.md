@@ -2,7 +2,7 @@
 description: Fetch data from a mongodb and get a dataframe
 ---
 
-# 🥭MongoDB
+# 🥭 MongoDB
 
 {% embed url="https://www.mongodb.com/" caption="Website" %}
 

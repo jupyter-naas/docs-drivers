@@ -2,7 +2,7 @@
 description: Interact with Zapier app
 ---
 
-# ⚡️Zapier
+# ⚡️ Zapier
 
 {% embed url="http://zappier.com/" caption="Website" %}
 

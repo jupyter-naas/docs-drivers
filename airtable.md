@@ -2,7 +2,7 @@
 description: Interact with Airtable app
 ---
 
-# 💨Airtable
+# 💨 Airtable
 
 {% embed url="https://airtable.com/" caption="Website" %}
 

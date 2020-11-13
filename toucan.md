@@ -2,7 +2,7 @@
 description: Interact with toucan toco app
 ---
 
-# 📊Toucan Toco
+# 📊 Toucan Toco
 
 {% embed url="https://toucantoco.com/en/" caption="Website" %}
 

@@ -2,7 +2,7 @@
 description: Interact with Healthcheks app
 ---
 
-# ⛑Healthcheks
+# ⛑ Healthcheks
 
 {% embed url="https://healthchecks.io/" caption="Website" %}
 

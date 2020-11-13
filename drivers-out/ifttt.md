@@ -2,7 +2,7 @@
 description: Interact with Zappier app
 ---
 
-# ➕IFTTT
+# ➕ IFTTT
 
 {% embed url="https://ifttt.com" caption="Website" %}
 

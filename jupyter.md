@@ -2,7 +2,7 @@
 description: Interact with Jupyter app
 ---
 
-# 🪐Jupyter
+# 🪐 Jupyter
 
 {% embed url="https://jupyter.org/hub" caption="Website" %}
 

@@ -21,24 +21,24 @@
 
 * [🛁 Bubble](drivers-out/bubble.md)
 * [💌 Email](drivers-out/email.md)
-* [⛑Healthcheks](drivers-out/healthcheks.md)
-* [➕IFTTT](drivers-out/ifttt.md)
+* [⛑ Healthcheks](drivers-out/healthcheks.md)
+* [➕ IFTTT](drivers-out/ifttt.md)
 * [🤖 Integromat](drivers-out/integromat.md)
-* [⚡️Zapier](drivers-out/zappier.md)
+* [⚡️ Zapier](drivers-out/zappier.md)
 
 ## Drivers In Out
 
 ---
 
-* [💨Airtable](airtable.md)
-* [👷‍♂️Bobapp](bobapp.md)
+* [💨 Airtable](airtable.md)
+* [👷‍♂️ Bobapp](bobapp.md)
 * [🥫 Canny](canny.md)
 * [📂 Ftp](ftp.md)
 * [📈 Gsheets](gsheets.md)
-* [🪐Jupyter](jupyter.md)
-* [🥭MongoDB](mongodb.md)
-* [📚Thinkific](thinkific.md)
-* [📊Toucan Toco](toucan.md)
+* [🪐 Jupyter](jupyter.md)
+* [🥭 MongoDB](mongodb.md)
+* [📚 Thinkific](thinkific.md)
+* [📊 Toucan Toco](toucan.md)
 
 ## Main docs
 

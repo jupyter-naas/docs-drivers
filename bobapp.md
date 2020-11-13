@@ -2,7 +2,7 @@
 description: Interact with toucan toco app
 ---
 
-# 👷‍♂️Bobapp
+# 👷‍♂️ Bobapp
 
 {% embed url="https://bobapp.ai/" %}
 

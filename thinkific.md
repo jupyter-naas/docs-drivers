@@ -2,7 +2,7 @@
 description: Interact with Thinkific app
 ---
 
-# 📚Thinkific
+# 📚 Thinkific
 
 {% embed url="https://www.thinkific.com" caption="Website" %}
 
