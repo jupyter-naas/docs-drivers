@@ -54,13 +54,42 @@ user = jp.get_user(email)
 
 ### Create
 
+{% hint style="warning" %}
 Only Naas super admin can do it 
+{% endhint %}
 
 ```text
 email = "bob@cashstory.com"
 password = "****"
 super_admin_token = "*****"
 user = jp.create_user(email, password, super_admin_token)
+```
+
+### Get Authorize
+
+Get one Authorization for user.
+
+{% hint style="warning" %}
+Only Naas super admin can do it 
+{% endhint %}
+
+```text
+email = "bob@cashstory.com"
+is_authorize = jp.get_authorize_user(email)
+```
+
+### Authorize
+
+Authorize one user.
+
+{% hint style="warning" %}
+Only Naas super admin can do it 
+{% endhint %}
+
+```text
+email = "bob@cashstory.com"
+is_authorize = True
+user = jp.change_authorize_user(email, is_authorize)
 ```
 
 ### Active
