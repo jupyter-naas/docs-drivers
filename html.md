@@ -277,3 +277,29 @@ email_content = naas_drivers.html.generate(
 )
 ```
 
+## Export
+
+```python
+html = email_content
+filenames = "myfile.html" # can be .html .png .pdf or .jpeg file
+# can be a list too
+filenames = ["myfile.html", "myfile.pdf"]
+css = ".class{ color: white;}" # allow css injection
+naas_drivers.html.export(html, filenames, css)
+```
+
+## Convert
+
+{% hint style="info" %}
+only support markdown to html for now
+{% endhint %}
+
+```python
+data = """
+# Welcome Title
+
+text here
+"""
+naas_drivers.html.convert(data, input_type="markdown")
+```
+
