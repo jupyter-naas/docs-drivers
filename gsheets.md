@@ -23,7 +23,7 @@ Get your `spreadsheetId` for your spreadsheet url like this :
 ## Get
 
 ```python
-import nass_drivers
+import naas_drivers
 spreadsheet_id = "idd"
 naas_drivers.gsheet.connect(spreadsheet_id).get(
     sheet_name="name"
