@@ -106,14 +106,14 @@ box = "INBOX"
 status = emails.status(box)
 ```
 
-## Set seen
+## Seen
 
 ```python
 uid = "4460"
 emails.set_seen(uid, True)
 ```
 
-## Set flags
+## Flags
 
 ```python
 uid = "4460"
