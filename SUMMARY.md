@@ -20,7 +20,6 @@
 ## Drivers Out
 
 * [🛁 Bubble](drivers-out/bubble.md)
-* [💌 Email](drivers-out/email.md)
 * [⛑ Healthcheks](drivers-out/healthcheks.md)
 * [➕ IFTTT](drivers-out/ifttt.md)
 * [🤖 Integromat](drivers-out/integromat.md)
@@ -33,6 +32,7 @@
 * [💨 Airtable](airtable.md)
 * [👷‍♂️ Bobapp](bobapp.md)
 * [🥫 Canny](canny.md)
+* [💌 Email](email.md)
 * [📂 Ftp](ftp.md)
 * [📈 Gsheets](gsheets.md)
 * [👉Hubspot](hubspot.md)

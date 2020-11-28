@@ -26,7 +26,9 @@ emails = nass_drivers.email.connect(username,
         smtp_type)
 ```
 
-## Text
+## Send
+
+### Text
 
 Send an email to anyone, notify about data changes, alert on notebooks operations, etc... 
 
@@ -38,7 +40,7 @@ content = "check in the link the chart data maide from fresh dataset : [LINK]"
 emails.send(email_to=email, subject=subject, html=content)
 ```
 
-## File
+### File
 
 ```python
 email = "elon@musk.com"
@@ -49,7 +51,7 @@ files = ["path/to/my/super/data.csv"]
 emails.send(email_to=email, subject=subject, html=content, files=files)
 ```
 
-## HTML
+### HTML
 
 ```python
 email = "elon@musk.com"
@@ -60,7 +62,36 @@ html = f"<h1>Check in the link the chart image below</h1><br/> <img src="{image_
 emails.send(email_to=email, subject=subject, html=content)
 ```
 
+## Get
 
+```python
+email_df = emails.get()
+```
 
-## 
+### Get from folder
+
+```python
+box = "INBOX" # check the list you have with get_mailbox
+email_df = emails.get(box)
+```
+
+## Get mailbox list
+
+```python
+mailboxs = emails.get_mailbox()
+```
+
+### Subfolder
+
+```python
+main_folder = "INBOX"
+mailboxs = emails.get_mailbox(main_folder)
+```
+
+## Attachements
+
+```python
+uid = "4460"
+attachments = emails.get_attachments(uid)
+```
 
