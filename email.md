@@ -88,10 +88,43 @@ main_folder = "INBOX"
 mailboxs = emails.get_mailbox(main_folder)
 ```
 
-## Attachements
+## Folder
+
+### List
 
 ```python
 uid = "4460"
-attachments = emails.get_attachments(uid)
+box = "ALL"
+folders = emails.get_mailbox(box)
+```
+
+### Status 
+
+```python
+uid = "4460"
+box = "INBOX"
+status = emails.status(box)
+```
+
+## Set seen
+
+```python
+uid = "4460"
+emails.set_seen(uid, True)
+```
+
+## Set flags
+
+```python
+uid = "4460"
+flag = "ANSWERED"
+# possible value for flag:
+# flag = 'SEEN'
+# flag = 'ANSWERED'
+# flag = 'FLAGGED'
+# flag = 'DELETED'
+# flag = 'DRAFT'
+# flag = 'RECENT'
+attachments = emails.set_flag(uid, flag, True)
 ```
 
