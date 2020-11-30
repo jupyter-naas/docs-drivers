@@ -35,7 +35,7 @@
 * [💌 Email](email.md)
 * [📂 Ftp](ftp.md)
 * [📈 Gsheets](gsheets.md)
-* [👉Hubspot](hubspot.md)
+* [🎯 Hubspot](hubspot.md)
 * [🪐 Jupyter](jupyter.md)
 * [🥭 MongoDB](mongodb.md)
 * [📚 Thinkific](thinkific.md)
