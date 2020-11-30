@@ -106,7 +106,7 @@ create_contact = {"properties":
                     "website": website,
                     "company": company,
                     "hubspot_owner_id": hubspot_owner_id,
-                   }
+                  }
                  }
 
 contact_id = hs.contacts.send(create_contact)
@@ -304,8 +304,8 @@ update_deal = {"properties":
                    "amount": amount,
                    "closedate": closedate,
                    "hubspot_owner_id": hubspot_owner_id,
-                }
                }
+              }
 
 hs.deals.patch(deal_id, update_deal)
 ```
