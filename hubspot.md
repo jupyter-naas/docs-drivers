@@ -30,7 +30,7 @@ In the drivers philosophy, we did not raise errors.
 
 ### Get
 
-#### Get all users
+#### All users
 
 ```python
 # Get all contacts
@@ -38,7 +38,7 @@ df_contact = hs.contacts.get_all()
 df_contact
 ```
 
-#### Get single user
+#### Single user
 
 ```python
 # Get single contact
@@ -183,14 +183,14 @@ hs.contacts.delete(contact_id)
 
 ### Get
 
-#### Get all deals
+#### All deals
 
 ```python
 # Get all deals
 hs.deals.get_all()
 ```
 
-#### Get single deal
+#### Single deal
 
 ```python
 # Get single deal
@@ -350,7 +350,7 @@ hs.associations.create(object,
 
 ## Pipelines
 
-#### Get all
+#### Get all pipelines
 
 ```python
 # Get all pipelines
@@ -359,7 +359,7 @@ hs.pipelines.get_all()
 
 ## Deal stages
 
-#### Get all
+#### Get all dealstages
 
 ```python
 # Get all dealstages
