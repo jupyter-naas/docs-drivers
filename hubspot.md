@@ -4,7 +4,7 @@ description: Manage your sales pipeline thanks to our connection with the CRM Hu
 
 # 🎯 Hubspot
 
-{% embed url="http://hubspot.com" %}
+{% embed url="http://hubspot.com" caption="Website" %}
 
 ## Connect
 
