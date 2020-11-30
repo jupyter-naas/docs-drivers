@@ -4,7 +4,7 @@
 * [🖥️ Use on your computer](use-on-your-computer.md)
 * [👍 Updates](changelog.md)
 
-## Drivers In
+## Get data <a id="drivers-in"></a>
 
 ---
 
@@ -17,7 +17,7 @@
 * [🥰 Sentiment](sentiment-analysis.md)
 * [💰 Yahoo Finance](yahoo.md)
 
-## Drivers Out
+## Send data <a id="drivers-out"></a>
 
 * [🛁 Bubble](drivers-out/bubble.md)
 * [⛑ Healthcheks](drivers-out/healthcheks.md)
@@ -25,7 +25,7 @@
 * [🤖 Integromat](drivers-out/integromat.md)
 * [⚡️ Zapier](drivers-out/zappier.md)
 
-## Drivers In Out
+## Get & Send data <a id="drivers-in-out"></a>
 
 ---
 
