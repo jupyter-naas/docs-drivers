@@ -33,9 +33,10 @@ import naas_drivers
 api_key = "******"
 database_key = "appuBFPzX94pEqXUJ"
 table_name = "Opportunities"
+view = "MyView" # the name of your view in airtable 
 data = naas_drivers.airtable
         .connect(api_key, database_key, table_name)
-        .get(view='MyView', maxRecords=20)
+        .get(view=view', maxRecords=20)
 ```
 
 ## Send
