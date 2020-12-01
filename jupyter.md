@@ -108,14 +108,14 @@ jp.stop_user(email)
 
 ### Start user
 
-```text
+```python
 email = "bob@cashstory.com"
 jp.start_user(email)
 ```
 
 ### Restart user
 
-```text
+```python
 email = "bob@cashstory.com"
 jp.restart_user(email)
 ```
