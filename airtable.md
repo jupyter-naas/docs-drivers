@@ -33,10 +33,9 @@ import naas_drivers
 api_key = "******"
 database_key = "appuBFPzX94pEqXUJ"
 table_name = "Opportunities"
-view = "MyView" # the name of your view in airtable 
-data = naas_drivers.airtable
-        .connect(api_key, database_key, table_name)
-        .get(view=view', maxRecords=20)
+view = "MyView" # the name of your view in airtable
+at = naas_drivers.airtable.connect(api_key, database_key, table_name)
+data = at.get(view=view, maxRecords=20)
 ```
 
 ## Send
@@ -46,9 +45,8 @@ import naas_drivers
 api_key = "******"
 database_key = "appuBFPzX94pEqXUJ"
 table_name = "Opportunities"
-data = naas_drivers.airtable
-        .connect(api_key, database_key, table_name)
-        .send({'Name': 'Brian'})
+at = naas_drivers.airtable.connect(api_key, database_key, table_name)
+data = at.send({'Name': 'Brian'})
 ```
 
 ## Search
@@ -58,9 +56,8 @@ import naas_drivers
 api_key = "******"
 database_key = "appuBFPzX94pEqXUJ"
 table_name = "Opportunities"
-data = naas_drivers.airtable
-        .connect(api_key, database_key, table_name)
-        .search('Name', 'Tom')
+at = naas_drivers.airtable.connect(api_key, database_key, table_name)
+data = at.search('Name', 'Tom')
 ```
 
 ## Update
@@ -70,9 +67,8 @@ import naas_drivers
 api_key = "******"
 database_key = "appuBFPzX94pEqXUJ"
 table_name = "Opportunities"
-data = naas_drivers.airtable
-        .connect(api_key, database_key, table_name)
-        .update_by_field('Name', 'Tom', {'Phone': '1234-4445'})
+at = naas_drivers.airtable.connect(api_key, database_key, table_name)
+data = at.update_by_field('Name', 'Tom', {'Phone': '1234-4445'})
 ```
 
 ## Delete
@@ -82,9 +78,8 @@ import naas_drivers
 api_key = "******"
 database_key = "appuBFPzX94pEqXUJ"
 table_name = "Opportunities"
-data = naas_drivers.airtable
-        .connect(api_key, database_key, table_name)
-        .delete_by_field('Name', 'Tom')
+at = naas_drivers.airtable.connect(api_key, database_key, table_name)
+data = at.delete_by_field('Name', 'Tom')
 ```
 
 ## Connect
@@ -98,8 +93,8 @@ import naas_drivers
 api_key = "******"
 database_key = "appuBFPzX94pEqXUJ"
 table_name = "Opportunities"
-airtable = naas_drivers.airtable.connect(api_key, database_key, table_name)
-data = airtable.get(view='MyView', maxRecords=20)
+at = naas_drivers.airtable.connect(api_key, database_key, table_name)
+data = at.get(view='MyView', maxRecords=20)
 ```
 
 ## Official documentation
