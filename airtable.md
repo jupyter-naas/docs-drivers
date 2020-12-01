@@ -29,57 +29,56 @@ Then go to :
 ## Get
 
 ```python
-import naas_drivers
+from naas_drivers import airtable
 api_key = "******"
-database_key = "appuBFPzX94pEqXUJ"
-table_name = "Opportunities"
+db_key = "appuBFPzX94pEqXUJ"
+table = "Opportunities"
 view = "MyView" # the name of your view in airtable
-at = naas_drivers.airtable.connect(api_key, database_key, table_name)
-data = at.get(view=view, maxRecords=20)
+data = airtable.connect(api_key, db_key, table).get(view=view, maxRecords=20)
 ```
 
 ## Send
 
 ```python
-import naas_drivers
+from naas_drivers import airtable
 api_key = "******"
-database_key = "appuBFPzX94pEqXUJ"
-table_name = "Opportunities"
-at = naas_drivers.airtable.connect(api_key, database_key, table_name)
-data = at.send({'Name': 'Brian'})
+db_key = "appuBFPzX94pEqXUJ"
+table = "Opportunities"
+view = "MyView" # the name of your view in airtable
+data = airtable.connect(api_key, db_key, table).send({'Name': 'Brian'})
 ```
 
 ## Search
 
 ```python
-import naas_drivers
+from naas_drivers import airtable
 api_key = "******"
-database_key = "appuBFPzX94pEqXUJ"
-table_name = "Opportunities"
-at = naas_drivers.airtable.connect(api_key, database_key, table_name)
-data = at.search('Name', 'Tom')
+db_key = "appuBFPzX94pEqXUJ"
+table = "Opportunities"
+view = "MyView" # the name of your view in airtable
+data = airtable.connect(api_key, db_key, table).search('Name', 'Tom')
 ```
 
 ## Update
 
 ```python
-import naas_drivers
+from naas_drivers import airtable
 api_key = "******"
-database_key = "appuBFPzX94pEqXUJ"
-table_name = "Opportunities"
-at = naas_drivers.airtable.connect(api_key, database_key, table_name)
-data = at.update_by_field('Name', 'Tom', {'Phone': '1234-4445'})
+db_key = "appuBFPzX94pEqXUJ"
+table = "Opportunities"
+view = "MyView" # the name of your view in airtable
+data = airtable.connect(api_key, db_key, table).update_by_field('Name', 'Tom', {'Phone': '1234-4445'})
 ```
 
 ## Delete
 
 ```python
-import naas_drivers
+from naas_drivers import airtable
 api_key = "******"
-database_key = "appuBFPzX94pEqXUJ"
-table_name = "Opportunities"
-at = naas_drivers.airtable.connect(api_key, database_key, table_name)
-data = at.delete_by_field('Name', 'Tom')
+db_key = "appuBFPzX94pEqXUJ"
+table = "Opportunities"
+view = "MyView" # the name of your view in airtable
+data = airtable.connect(api_key, db_key, table).delete_by_field('Name', 'Tom')
 ```
 
 ## Connect
@@ -89,11 +88,12 @@ You can also save your connection and don't repeat it for each method.
 {% endhint %}
 
 ```python
-import naas_drivers
+from naas_drivers import airtable
 api_key = "******"
-database_key = "appuBFPzX94pEqXUJ"
-table_name = "Opportunities"
-at = naas_drivers.airtable.connect(api_key, database_key, table_name)
+db_key = "appuBFPzX94pEqXUJ"
+table = "Opportunities"
+view = "MyView" # the name of your view in airtable
+data = airtable.connect(api_key, db_key, table)
 data = at.get(view='MyView', maxRecords=20)
 ```
 
