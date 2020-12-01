@@ -95,25 +95,29 @@ active = jp.is_user_active(email)
 ### Server uptime
 
 ```python
-uptime = jp.get_server_uptime(user)
+email = "bob@cashstory.com"
+uptime = jp.get_server_uptime(email)
 ```
 
 ### Stop user
 
 ```python
-jp.stop_user(user)
+email = "bob@cashstory.com"
+jp.stop_user(email)
 ```
 
 ### Start user
 
 ```text
-jp.start_user(user)
+email = "bob@cashstory.com"
+jp.start_user(email)
 ```
 
 ### Restart user
 
 ```text
-jp.restart_user(user)
+email = "bob@cashstory.com"
+jp.restart_user(email)
 ```
 
 ## Official documentation
