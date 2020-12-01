@@ -20,7 +20,7 @@ In Naas cloud you can connect without any argument it will find your token alone
 
 {% embed url="https://app.naas.ai/hub/token" %}
 
-```text
+```python
 token = "*****"
 jp = naas_drivers.jupyter.connect(token)
 ```
@@ -29,13 +29,13 @@ jp = naas_drivers.jupyter.connect(token)
 
 ### Get 
 
-```text
+```python
 me = jp.get_me()
 ```
 
 ### Uptime
 
-```text
+```python
 uptime = jp.get_me_uptime()
 ```
 
@@ -45,20 +45,20 @@ Only Naas admin can do it
 
 ### Users
 
-```text
+```python
 users = jp.get_users()
 ```
 
 ### User
 
-```text
+```python
 email = "bob@cashstory.com"
 user = jp.get_user(email)
 ```
 
 ### Create
 
-```text
+```python
 email = "bob@cashstory.com"
 password = "****"
 user = jp.create_user(email, password)
@@ -68,7 +68,7 @@ user = jp.create_user(email, password)
 
 Get one Authorization for user.
 
-```text
+```python
 email = "bob@cashstory.com"
 is_authorize = jp.get_authorize_user(email)
 ```
@@ -77,7 +77,7 @@ is_authorize = jp.get_authorize_user(email)
 
 Authorize one user.
 
-```text
+```python
 email = "bob@cashstory.com"
 is_authorize = True
 user = jp.change_authorize_user(email, is_authorize)
@@ -87,19 +87,20 @@ user = jp.change_authorize_user(email, is_authorize)
 
 check if user has running server
 
-```text
-active = jp.is_user_active(user)
+```python
+email = "bob@cashstory.com"
+active = jp.is_user_active(email)
 ```
 
 ### Server uptime
 
-```text
+```python
 uptime = jp.get_server_uptime(user)
 ```
 
 ### Stop user
 
-```text
+```python
 jp.stop_user(user)
 ```
 

@@ -14,7 +14,11 @@ You should find it there:
 
 ![Screenshot of account API section](.gitbook/assets/screenshot-2020-11-02-at-13.34.30.png)
 
-then go on the Bottom link and choose the workspace you wanna connect and on the Authentication section, you should see :
+Then go to :
+
+{% embed url="https://airtable.com/api" %}
+
+ and choose the workspace you wanna connect and on the Authentication section, you should see :
 
 ![Screenshot of official doc](.gitbook/assets/screenshot-2020-11-02-at-13.30.21.png)
 
@@ -25,11 +29,11 @@ then go on the Bottom link and choose the workspace you wanna connect and on the
 ## Get
 
 ```python
-import nass_drivers
+import naas_drivers
 api_key = "******"
 database_key = "appuBFPzX94pEqXUJ"
 table_name = "Opportunities"
-data = nass_drivers.airtable
+data = naas_drivers.airtable
         .connect(api_key, database_key, table_name)
         .get(view='MyView', maxRecords=20)
 ```
@@ -37,11 +41,11 @@ data = nass_drivers.airtable
 ## Send
 
 ```python
-import nass_drivers
+import naas_drivers
 api_key = "******"
 database_key = "appuBFPzX94pEqXUJ"
 table_name = "Opportunities"
-data = nass_drivers.airtable
+data = naas_drivers.airtable
         .connect(api_key, database_key, table_name)
         .send({'Name': 'Brian'})
 ```
@@ -49,11 +53,11 @@ data = nass_drivers.airtable
 ## Search
 
 ```python
-import nass_drivers
+import naas_drivers
 api_key = "******"
 database_key = "appuBFPzX94pEqXUJ"
 table_name = "Opportunities"
-data = nass_drivers.airtable
+data = naas_drivers.airtable
         .connect(api_key, database_key, table_name)
         .search('Name', 'Tom')
 ```
@@ -61,11 +65,11 @@ data = nass_drivers.airtable
 ## Update
 
 ```python
-import nass_drivers
+import naas_drivers
 api_key = "******"
 database_key = "appuBFPzX94pEqXUJ"
 table_name = "Opportunities"
-data = nass_drivers.airtable
+data = naas_drivers.airtable
         .connect(api_key, database_key, table_name)
         .update_by_field('Name', 'Tom', {'Phone': '1234-4445'})
 ```
@@ -73,11 +77,11 @@ data = nass_drivers.airtable
 ## Delete
 
 ```python
-import nass_drivers
+import naas_drivers
 api_key = "******"
 database_key = "appuBFPzX94pEqXUJ"
 table_name = "Opportunities"
-data = nass_drivers.airtable
+data = naas_drivers.airtable
         .connect(api_key, database_key, table_name)
         .delete_by_field('Name', 'Tom')
 ```
@@ -89,11 +93,11 @@ You can also save your connection and don't repeat it for each method.
 {% endhint %}
 
 ```python
-import nass_drivers
+import naas_drivers
 api_key = "******"
 database_key = "appuBFPzX94pEqXUJ"
 table_name = "Opportunities"
-airtable = nass_drivers.airtable.connect(api_key, database_key, table_name)
+airtable = naas_drivers.airtable.connect(api_key, database_key, table_name)
 data = airtable.get(view='MyView', maxRecords=20)
 ```
 
