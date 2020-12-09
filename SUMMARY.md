@@ -20,7 +20,7 @@
 ## Send data <a id="drivers-out"></a>
 
 * [🛁 Bubble](drivers-out/bubble.md)
-* [⛑ Healthcheks](drivers-out/healthcheks.md)
+* [⛑ Healthchecks](drivers-out/healthcheks.md)
 * [➕ IFTTT](drivers-out/ifttt.md)
 * [🤖 Integromat](drivers-out/integromat.md)
 * [⚡️ Zapier](drivers-out/zappier.md)

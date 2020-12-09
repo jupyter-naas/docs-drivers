@@ -1,8 +1,8 @@
 ---
-description: Interact with Healthcheks app
+description: Interact with Healthchecks app
 ---
 
-# ⛑ Healthcheks
+# ⛑ Healthchecks
 
 {% embed url="https://healthchecks.io/" caption="Website" %}
 
