@@ -4,44 +4,63 @@
 * [🖥️ Use on your computer](use-on-your-computer.md)
 * [👍 Updates](changelog.md)
 
-## Get data <a id="drivers-in"></a>
+## Automation / No code <a id="automation"></a>
 
----
+* [Bubble](automation/bubble.md)
+* [Integromat](automation/integromat.md)
+* [IFTTT](automation/ifttt.md)
+* [Zapier](automation/zappier.md)
 
-* [📰 Cityfalcon](cityfalcon.md)
-* [📜 Html](html.md)
-* [🆕  News api](news-api.md)
-* [📄 Pdf](pdf.md)
-* [📊 Plotly](chart.md)
-* [🔮 Prediction](prediction.md)
-* [🥰 Sentiment](sentiment-analysis.md)
-* [💰 Yahoo Finance](yahoo.md)
+## CRM
 
-## Send data <a id="drivers-out"></a>
+* [Hubspot](crm/hubspot.md)
 
-* [🛁 Bubble](drivers-out/bubble.md)
-* [⛑ Healthchecks](drivers-out/healthcheks.md)
-* [➕ IFTTT](drivers-out/ifttt.md)
-* [🤖 Integromat](drivers-out/integromat.md)
-* [⚡️ Zapier](drivers-out/zappier.md)
+## Dataviz
 
-## Get & Send data <a id="drivers-in-out"></a>
+* [Plotly](dataviz/chart.md)
+* [Toucan Toco](dataviz/toucan.md)
 
----
+## Database
 
-* [💨 Airtable](airtable.md)
-* [👷‍♂️ Bobapp](bobapp.md)
-* [🥫 Canny](canny.md)
-* [💌 Email](email.md)
-* [📂 Ftp](ftp.md)
-* [📈 Gsheets](gsheets.md)
-* [🎯 Hubspot](hubspot.md)
-* [🪐 Jupyter](jupyter.md)
-* [🥭 MongoDB](mongodb.md)
-* [📚 Thinkific](thinkific.md)
-* [📊 Toucan Toco](toucan.md)
+* [Google Sheets](database/gsheets.md)
+* [Airtable](database/airtable.md)
+* [MongoDB](database/mongodb.md)
 
-## Main docs
+## Emailing
+
+## File management
+
+* [Emails](file-management/email.md)
+* [FTP](file-management/ftp.md)
+* [Html](file-management/html.md)
+* [Pdf](file-management/pdf.md)
+
+## Market Data
+
+* [Yahoo Finance](market-data/yahoo.md)
+
+## Machine Learning
+
+* [Linear regression](machine-learning/prediction.md)
+* [Sentiment analysis](machine-learning/sentiment-analysis.md)
+
+## LMS
+
+* [Thinkific](lms/thinkific.md)
+
+## News
+
+* [Cityfalcon](news/cityfalcon.md)
+* [News API](news/news-api.md)
+
+## Technical drivers <a id="drivers-out"></a>
+
+* [Bobapp.ai](drivers-out/bobapp.md)
+* [Canny](drivers-out/canny.md)
+* [Jupyter](drivers-out/jupyter.md)
+* [Healthchecks](drivers-out/healthcheks.md)
+
+## 👉 Main docs
 
 * [Naas](https://naas.gitbook.io/naas/)
 

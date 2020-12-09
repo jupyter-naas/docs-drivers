@@ -2,7 +2,7 @@
 description: Interact with Healthchecks app
 ---
 
-# ⛑ Healthchecks
+# Healthchecks
 
 {% embed url="https://healthchecks.io/" caption="Website" %}
 
@@ -28,7 +28,7 @@ key = "123456-123456-12455"
 naas_drivers.healthcheck.connect(key).send()
 ```
 
-## fail
+## Fail
 
 ```python
 key = "123456-123456-12455"
