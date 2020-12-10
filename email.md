@@ -2,7 +2,7 @@
 description: Interact with email box
 ---
 
-# 💌 Email
+# Emails
 
 ## Connect
 

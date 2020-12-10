@@ -1,5 +1,5 @@
 ---
-description: Interact with Bubble app
+description: Interact with Bubble.io
 ---
 
 # Bubble

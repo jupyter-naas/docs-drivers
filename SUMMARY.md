@@ -4,7 +4,7 @@
 * [🖥️ Use on your computer](use-on-your-computer.md)
 * [👍 Updates](changelog.md)
 
-## Automation / No code <a id="automation"></a>
+## Automation \(No-code\) <a id="automation"></a>
 
 * [Bubble](automation/bubble.md)
 * [Integromat](automation/integromat.md)
@@ -28,9 +28,12 @@
 
 ## Emailing
 
+---
+
+* [Emails](email.md)
+
 ## File management
 
-* [Emails](file-management/email.md)
 * [FTP](file-management/ftp.md)
 * [Html](file-management/html.md)
 * [Pdf](file-management/pdf.md)
