@@ -43,13 +43,13 @@ uptime = jp.get_me_uptime()
 
 Only Naas admin can do it
 
-### Users
+### Get Users
 
 ```python
 users = jp.get_users()
 ```
 
-### User
+### Get one User
 
 ```python
 email = "bob@cashstory.com"
@@ -90,6 +90,16 @@ check if user has running server
 ```python
 email = "bob@cashstory.com"
 active = jp.is_user_active(email)
+```
+
+### Change password
+
+change password of one user
+
+```python
+email = "bob@cashstory.com"
+newPassowrd = "*****"
+user = jp.change_password_user(email, newPassowrd)
 ```
 
 ### Server uptime
