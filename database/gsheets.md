@@ -41,7 +41,7 @@ data = [{ "name": "Jean", "email": "jean@appleseed.com" }, { "name": "Bunny", "e
 spreadsheet_id = "idd"
 naas_drivers.gsheet.connect(spreadsheet_id).send(
     sheet_name="TSLA",
-    data
+    data=data
 )
 ```
 
