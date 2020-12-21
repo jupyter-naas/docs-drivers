@@ -63,6 +63,10 @@
 * [Jupyter](drivers-out/jupyter.md)
 * [Healthchecks](drivers-out/healthcheks.md)
 
+## Treasury
+
+* [Qonto](treasury/qonto.md)
+
 ## 👉 Main docs
 
 * [Naas](https://naas.gitbook.io/naas/)
