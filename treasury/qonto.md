@@ -4,7 +4,7 @@ description: Connect with qonto
 
 # Qonto
 
-{% embed url="https://qonto.com/fr" %}
+{% embed url="https://qonto.com/" %}
 
 ## Connect
 
