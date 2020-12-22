@@ -40,7 +40,8 @@ all this data can be generated for you by the Yahoo driver
 
 ```python
 df = naas_drivers.yahoo.stock("TSLA")
-chart = naas_drivers.plot.stock(df)
+chart = naas_drivers.plotly.stock(df)
+chart
 ```
 
 ### Chart type
@@ -48,13 +49,13 @@ chart = naas_drivers.plot.stock(df)
 ```python
 kind = "linechart" 
 # can be linechart, linechart_open, linechart_close or candlestick
-naas_drivers.plot.stock("TSLA", kind=kind)
+naas_drivers.plotly.stock("TSLA", kind=kind)
 ```
 
 ### Filter
 
 ```python
-naas_drivers.plot.stock("TSLA", filter=True, filter_title="Stock")
+naas_drivers.plotly.stock("TSLA", filter=True, filter_title="Stock")
 ```
 
 ## Linechart
@@ -65,7 +66,7 @@ If you use yahoo driver you can pass it without option it's made to work togethe
 
 ```python
 df = naas_drivers.yahoo.stock("TSLA")
-chart = naas_drivers.plot.linechart(df, label_x="Date", label_y=["Close"])
+chart = naas_drivers.plotly.linechart(df, label_x="Date", label_y=["Close"])
 ```
 
 ## Candlestick
@@ -76,7 +77,7 @@ If you use yahoo driver you can pass it without option it's made to work togethe
 
 ```python
 df = naas_drivers.yahoo.stock("TSLA")
-chart = naas_drivers.plot.candlestick(df, 
+chart = naas_drivers.plotly.candlestick(df, 
                 label_x="Date", 
                 label_open="Open", 
                 label_high="Hight"
@@ -96,18 +97,18 @@ this should connect to this docker machine :
 ### Simple
 
 ```python
-chart = naas_drivers.plot.stock("TSLA")
+chart = naas_drivers.plotly.stock("TSLA")
 filename = "Tesla.png" # can be png, jpeg or html
-naas_drivers.plot.export(chart, "Tesla.png", css=None)
+naas_drivers.plotly.export(chart, "Tesla.png", css=None)
 ```
 
 ### Css custom
 
 ```python
-chart = naas_drivers.plot.stock("TSLA")
+chart = naas_drivers.plotly.stock("TSLA")
 filename = "Tesla.png" # can be png or html
 css = ".custom_css {color: white}"
-naas_drivers.plot.export(chart, "Tesla.png", css=css)
+naas_drivers.plotly.export(chart, "Tesla.png", css=css)
 ```
 
 ## Official documentation:
