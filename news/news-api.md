@@ -14,8 +14,11 @@ You must Connect before any other methods
 
 ```python
 naas_drivers.newsapi.connect("YOUR_API_KEY")
-# You can use our default apikey limited to 200/hours request for all users 
+
+# OR You can use our default apikey to test
+# Limited to 200/hours request for all naas users 
 naas_drivers.newsapi.connect()
+
 ```
 
 ## Get
@@ -23,7 +26,7 @@ naas_drivers.newsapi.connect()
 ### Basic
 
 ```python
-naas_drivers.newsapi.get("TSLA")
+naas_drivers.newsapi.get(q="TSLA")
 ```
 
 ### Fields
