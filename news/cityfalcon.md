@@ -10,6 +10,8 @@ description: Connect to cityfalcon api and get a dataframe
 
 ### Action
 
+
+
 ```python
 naas_drivers.cityfalcon.connect("YOUR_API_KEY").get("TSLA")
 ```
@@ -35,7 +37,7 @@ naas_drivers.cityfalcon.connect("YOUR_API_KEY").get("TSLA", fields=fields)
 
 ### Country
 
-Country of stock exange
+Country of the stock exchange
 
 ```python
 country = "US"
@@ -44,7 +46,7 @@ naas_drivers.cityfalcon.connect("YOUR_API_KEY").get("TSLA", country=country)
 
 ### Limit
 
-Limit the number of result 
+Limit the number of results
 
 ```python
 limit = 5
@@ -62,7 +64,7 @@ naas_drivers.cityfalcon.connect("YOUR_API_KEY").get("TSLA", min_score=min_score)
 
 ### Paywall
 
-Show article with paywall
+Show article with a paywall
 
 ```python
 paywall = True
