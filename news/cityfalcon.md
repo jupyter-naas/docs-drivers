@@ -10,7 +10,9 @@ description: Connect to cityfalcon api and get a dataframe
 
 ### Action
 
-
+{% hint style="info" %}
+You can request only tickers on Cityfalcon free plan
+{% endhint %}
 
 ```python
 naas_drivers.cityfalcon.connect("YOUR_API_KEY").get("TSLA")
