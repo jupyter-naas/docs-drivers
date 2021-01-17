@@ -69,6 +69,6 @@
 
 ## 👉 Main docs
 
-* [Naas untitled](https://public.naas.ai/amVyZW15LTJFcmF2ZW5lbC00MGNhc2hzdG9yeS0yRWNvbQ==/asset/99244e374f50128c76de7a7d09209722ff109d8f3cb19a312fdd5b818e09)
 * [Naas](https://naas.gitbook.io/naas/)
+* [Download the template](https://public.naas.ai/amVyZW15LTJFcmF2ZW5lbC00MGNhc2hzdG9yeS0yRWNvbQ==/asset/99244e374f50128c76de7a7d09209722ff109d8f3cb19a312fdd5b818e09)
 
