@@ -2,7 +2,13 @@
 
 How to get your bot token
 
+Create app with the link below
 
+{% embed url="https://api.slack.com/apps" %}
+
+Then go to OAuth & Permissions
+
+![](../.gitbook/assets/screenshot-2021-01-25-at-18.24.42%20%281%29.png)
 
 ## Send message
 
