@@ -16,6 +16,8 @@ Then you should see your webhook url
 
 ![Sreenshot webhook link](../.gitbook/assets/screenshot-2021-01-25-at-19.43.26.png)
 
+You can use it below to send message in your channel
+
 ## Send message
 
 ```python
