@@ -66,5 +66,3 @@ All library listed below are essential to naas-drivers, please don't update them
     "pytesseract>=0,<1",
 ```
 
-Machine Level
-
