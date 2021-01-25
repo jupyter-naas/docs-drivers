@@ -28,3 +28,18 @@ message = "Hello friends"
 result = naas_drivers.teams.connect(webhook).send(message)
 ```
 
+### Image
+
+Image be url only, if you need expose asset before sending it
+
+```python
+import naas_drivers
+
+webhook = "https://COMPANY.webhook.office.com/webhookb2/****/***"
+message = "Hello friends"
+image = "http://i.imgur.com/c4jt321l.png")
+result = naas_drivers.teams.connect(webhook).send(message, image=image)
+```
+
+
+
