@@ -18,6 +18,8 @@ Then you sould reload your app, slack should notify you like this
 
 ![](../.gitbook/assets/screenshot-2021-01-25-at-19.54.48.png)
 
+![Screenshot token](../.gitbook/assets/screenshot-2021-01-25-at-19.58.42.png)
+
 ## Send message
 
 ```python
