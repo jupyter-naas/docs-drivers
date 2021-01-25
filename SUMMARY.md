@@ -11,6 +11,8 @@
 * [Integromat](automation/integromat.md)
 * [IFTTT](automation/ifttt.md)
 * [Zapier](automation/zappier.md)
+* [Slack](automation/slack.md)
+* [Teams](automation/teams.md)
 
 ## CRM
 
