@@ -37,6 +37,7 @@
 
 * [FTP](file-management/ftp.md)
 * [Html](file-management/html.md)
+* [Markdown](file-management/markdown.md)
 * [Pdf](file-management/pdf.md)
 
 ## Market Data
