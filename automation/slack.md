@@ -20,6 +20,8 @@ Then you sould reload your app, slack should notify you like this
 
 ![Screenshot token](../.gitbook/assets/screenshot-2021-01-25-at-19.58.42.png)
 
+Copy the Bot user OAuth Access Token and use it in the connect below
+
 ## Send message
 
 ```python
@@ -27,6 +29,6 @@ import naas_drivers
 
 token = "xoxb-***-***-****"
 message = "Hello friends"
-result = naas_drivers.slack.connect(webhook).send(message)
+result = naas_drivers.slack.connect(token).send(message)
 ```
 
