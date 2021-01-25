@@ -8,7 +8,7 @@ Create app with the link below
 
 Then go to OAuth & Permissions
 
-![](../.gitbook/assets/screenshot-2021-01-25-at-18.24.42%20%281%29.png)
+![Screenshot slack](../.gitbook/assets/screenshot-2021-01-25-at-18.24.42%20%281%29.png)
 
 ## Send message
 
