@@ -2,6 +2,7 @@
 
 * [🚀 Get started](README.md)
 * [🖥️ Use on your computer](use-on-your-computer.md)
+* [💃 Installed librairies](installed-librairies.md)
 * [👍 Updates](changelog.md)
 
 ## Automation \(No-code\) <a id="automation"></a>
