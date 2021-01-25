@@ -12,7 +12,7 @@ Then go to OAuth & Permissions
 
 Add scope to your app to allow bot to speak ****[**chat:write.public**](https://api.slack.com/scopes/chat:write.public)\*\*\*\*
 
-![](../.gitbook/assets/screenshot-2021-01-25-at-18.24.33.png)
+![Screenshot rights](../.gitbook/assets/screenshot-2021-01-25-at-18.24.33.png)
 
 ## Send message
 
