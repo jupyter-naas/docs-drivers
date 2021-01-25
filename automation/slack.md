@@ -14,6 +14,10 @@ Add scope to your app to allow bot to speak ****[**chat:write.public**](https://
 
 ![Screenshot rights](../.gitbook/assets/screenshot-2021-01-25-at-18.24.33.png)
 
+Then you sould reload your app, slack should notify you like this
+
+![](../.gitbook/assets/screenshot-2021-01-25-at-19.54.48.png)
+
 ## Send message
 
 ```python
