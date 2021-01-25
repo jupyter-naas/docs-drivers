@@ -23,8 +23,8 @@
 
 ## Database
 
-* [Google Sheets](database/gsheets.md)
 * [Airtable](database/airtable.md)
+* [Google Sheets](database/gsheets.md)
 * [MongoDB](database/mongodb.md)
 
 ## Emailing
@@ -36,8 +36,8 @@
 ## File management
 
 * [FTP](file-management/ftp.md)
-* [Html](file-management/html.md)
 * [Markdown](file-management/markdown.md)
+* [Html](file-management/html.md)
 * [Pdf](file-management/pdf.md)
 
 ## Market Data
