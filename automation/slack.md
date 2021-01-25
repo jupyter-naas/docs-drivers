@@ -32,3 +32,16 @@ message = "Hello friends"
 result = naas_drivers.slack.connect(token).send(message)
 ```
 
+### Image
+
+Image be url only, if you need expose asset before sending it
+
+```python
+import naas_drivers
+
+token = "xoxb-***-***-****"
+message = "Hello friends"
+image = "http://i.imgur.com/c4jt321l.png")
+result = naas_drivers.slack.connect(token).send(message, image=image)
+```
+
