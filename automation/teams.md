@@ -12,6 +12,10 @@ Create a webwook for naas
 
 ![Screenshot create webhook](../.gitbook/assets/screenshot-2021-01-25-at-19.43.14.png)
 
+Then you should see your webhook url
+
+![Sreenshot webhook link](../.gitbook/assets/screenshot-2021-01-25-at-19.43.26.png)
+
 ## Send message
 
 ```python
