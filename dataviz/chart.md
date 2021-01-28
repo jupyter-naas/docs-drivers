@@ -10,7 +10,7 @@ description: Create chart easily with plotly
 
 Create stock chart from Dataframe
 
-If you use yahoo driver you can pass it without option it's made to work together
+If you use yahoo driverdrivers  you can pass it without option it's made to work together
 
 Give a data frame with theses columns
 
@@ -80,7 +80,7 @@ df = naas_drivers.yahoo.stock("TSLA")
 chart = naas_drivers.plotly.candlestick(df, 
                 label_x="Date", 
                 label_open="Open", 
-                label_high="Hight"
+                label_high="Hight",
                 label_low="Low",
                 label_close="Close"
                 )
