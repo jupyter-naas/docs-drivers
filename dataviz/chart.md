@@ -39,7 +39,7 @@ all this data can be generated for you by the Yahoo driver
 ### Basic
 
 ```python
-df = naas_drivers.yahoo.stock("TSLA")
+df = naas_drivers.yahoofinance.stock("TSLA")
 chart = naas_drivers.plotly.stock(df)
 chart
 ```
@@ -65,7 +65,7 @@ If you use yahoo driver you can pass it without option it's made to work togethe
 ### Basic
 
 ```python
-df = naas_drivers.yahoo.stock("TSLA")
+df = naas_drivers.yahoofinance.stock("TSLA")
 chart = naas_drivers.plotly.linechart(df, label_x="Date", label_y=["Close"])
 ```
 
@@ -76,7 +76,7 @@ If you use yahoo driver you can pass it without option it's made to work togethe
 ### Basic
 
 ```python
-df = naas_drivers.yahoo.stock("TSLA")
+df = naas_drivers.yahoofinance.stock("TSLA")
 chart = naas_drivers.plotly.candlestick(df, 
                 label_x="Date", 
                 label_open="Open", 
