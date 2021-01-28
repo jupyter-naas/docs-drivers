@@ -29,7 +29,7 @@ Get your `spreadsheetId` for your spreadsheet url like this :
 ```python
 import naas_drivers
 spreadsheet_id = "idd"
-naas_drivers.gsheet.connect(spreadsheet_id).get(
+data = naas_drivers.gsheet.connect(spreadsheet_id).get(
     sheet_name="name"
 )
 ```
@@ -38,6 +38,8 @@ naas_drivers.gsheet.connect(spreadsheet_id).get(
 
 ```python
 data = [{ "name": "Jean", "email": "jean@appleseed.com" }, { "name": "Bunny", "email": "bunny@appleseed.com" }]
+# It accept list of dict or dataframe
+
 spreadsheet_id = "idd"
 naas_drivers.gsheet.connect(spreadsheet_id).send(
     sheet_name="TSLA",
