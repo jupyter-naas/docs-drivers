@@ -9,7 +9,7 @@ description: Interact with Integromat.com
 ## WebHook
 
 ```python
-import nass_drivers
+import naas_drivers
 url = "https://hook.integromat.com/7edtlwmn8foer0r9i9ainjvsz3vxmwos"
 data = { "first_name":"Bryan", "last_name":"Helmig", "age": 27 }
 result = naas_drivers.zappier.connect(url).send(data)
