@@ -11,6 +11,7 @@
 * [Integromat](automation/integromat.md)
 * [IFTTT](automation/ifttt.md)
 * [Zapier](automation/zappier.md)
+* [Notion](automation/notion.md)
 * [Slack](automation/slack.md)
 * [Teams](automation/teams.md)
 

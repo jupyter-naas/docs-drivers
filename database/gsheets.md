@@ -28,6 +28,7 @@ Get your `spreadsheetId` for your spreadsheet url like this :
 
 ```python
 import naas_drivers
+
 spreadsheet_id = "idd"
 data = naas_drivers.gsheet.connect(spreadsheet_id).get(
     sheet_name="name"
@@ -37,6 +38,8 @@ data = naas_drivers.gsheet.connect(spreadsheet_id).get(
 ## Send
 
 ```python
+import naas_drivers
+
 data = [{ "name": "Jean", "email": "jean@appleseed.com" }, { "name": "Bunny", "email": "bunny@appleseed.com" }]
 # It accept list of dict or dataframe
 
@@ -54,6 +57,8 @@ You can also save your connection and don't repeat it for each method.
 {% endhint %}
 
 ```python
+import naas_drivers
+
 gsheet = naas_drivers.gsheet.connect("spreadsheet_id")
 
 name_1 = cityfalcon.get("name_1")
