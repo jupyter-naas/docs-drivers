@@ -47,6 +47,10 @@ token = "*********"
 url = "https://www.notion.so/myorg/Test-c0d20a71c0944985ae96e661ccc99821"
 page = naas_drivers.notion.connect(token=token).get(url)
 
+print("The old title is:", page.title)
+
+# Note: You can use Markdown! We convert on-the-fly to Notion's internal formatted text data structure.
+page.title = "The title has now changed, and has *live-updated* in the browser!"
 ```
 
 ## Get collection
@@ -67,6 +71,16 @@ import naas_drivers
 token = "*********"
 url = "https://www.notion.so/myorg/Test-c0d20a71c0944985ae96e661ccc99821"
 n = naas_drivers.notion.connect(token=token)
-collection = n.get_collection(url, raw=True)
+cv = n.get_collection(url, raw=True)
+
+# Add a new record
+row = cv.collection.add_row()
+row.name = "Just some data"
+row.is_confirmed = True
+row.estimated_value = 399
+row.files = ["https://www.birdlife.org/sites/default/files/styles/1600/public/slide.jpg"]
+row.person = client.current_user
+row.tags = ["A", "C"]
+row.where_to = "https://learningequality.org"
 ```
 
