@@ -121,6 +121,16 @@ my_block.move_to(otherblock, "last-child")
 # (you can also use "before" and "first-child")
 ```
 
+### Lock/Unlock A Page
+
+```text
+# The "locked" property is available on PageBlock and CollectionViewBlock objects
+# Set it to True to lock the page/database
+page.locked = True
+# and False to unlock it again
+page.locked = False
+```
+
 ## Get collection
 
 ```python
