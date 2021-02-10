@@ -55,6 +55,72 @@ print("The old title is:", page.title)
 page.title = "The title has now changed, and has *live-updated* in the browser!"
 ```
 
+### Traversing the block tree
+
+```text
+for child in page.children:
+    print(child.title)
+
+print("Parent of {} is {}".format(page.id, page.parent.id))
+```
+
+### Adding a new node
+
+```text
+from notion.block import TodoBlock
+
+newchild = page.children.add_new(TodoBlock, title="Something to get done")
+newchild.checked = True
+```
+
+### Deleting nodes
+
+```text
+# soft-delete
+page.remove()
+
+# hard-delete
+page.remove(permanently=True)
+```
+
+### Create an embedded content type \(iframe, video, etc\)
+
+```text
+from notion.block import VideoBlock
+
+video = page.children.add_new(VideoBlock, width=200)
+# sets "property.source" to the URL, and "format.display_source" to the embedly-converted URL
+video.set_source_url("https://www.youtube.com/watch?v=oHg5SJYRHA0")
+```
+
+### Create a new embedded collection view block
+
+```text
+collection = client.get_collection(COLLECTION_ID) # get an existing collection
+cvb = page.children.add_new(CollectionViewBlock, collection=collection)
+view = cvb.views.add_new(view_type="table")
+
+# Before the view can be browsed in Notion, 
+# the filters and format options on the view should be set as desired.
+# 
+# for example:
+#   view.set("query", ...)
+#   view.set("format.board_groups", ...)
+#   view.set("format.board_properties", ...)
+```
+
+### Moving blocks around
+
+```text
+# move my block to after the video
+my_block.move_to(video, "after")
+
+# move my block to the end of otherblock's children
+my_block.move_to(otherblock, "last-child")
+
+# (you can also use "before" and "first-child")
+```
+
 ## Get collection
 
 ```python
