@@ -59,3 +59,14 @@ url = "https://www.notion.so/myorg/Test-c0d20a71c0944985ae96e661ccc99821"
 collection_df = naas_drivers.notion.connect(token=token).get_collection(url)
 ```
 
+You can also get it in raw format to be able to edit it :
+
+```python
+import naas_drivers
+
+token = "*********"
+url = "https://www.notion.so/myorg/Test-c0d20a71c0944985ae96e661ccc99821"
+n = naas_drivers.notion.connect(token=token)
+collection = n.get_collection(url, raw=True)
+```
+
