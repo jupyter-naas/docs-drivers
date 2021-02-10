@@ -40,6 +40,8 @@ hs = notion.connect(token=token)
 
 ## Get
 
+Get the notion page content
+
 ```python
 import naas_drivers
 
@@ -83,4 +85,8 @@ row.person = client.current_user
 row.tags = ["A", "C"]
 row.where_to = "https://learningequality.org"
 ```
+
+Discover more usage with the documentation of original notion package
+
+{% embed url="https://pypi.org/project/notion/" %}
 
