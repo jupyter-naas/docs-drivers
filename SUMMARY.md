@@ -1,13 +1,13 @@
 # Table of contents
 
-* [About Naas drivers](README.md)
+* [🚀 Get started](README.md)
 
 ## Explore
 
 * [Naas Website](https://www.naas.ai/)
 * [Features](https://naas.gitbook.io/naas/)
 
-## Tools
+## ⚙️ Tools
 
 * [Airtable](tools/airtable.md)
 * [Bobapp.ai](tools/bobapp.md)
@@ -44,5 +44,4 @@
 * [💃 Installed librairies](more-info/installed-librairies.md)
 * [👍 Updates](more-info/changelog.md)
 * [🖥️ Use on your computer](more-info/use-on-your-computer.md)
-* [Untitled](more-info/untitled.md)
 
