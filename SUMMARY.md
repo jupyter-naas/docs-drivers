@@ -1,79 +1,43 @@
 # Table of contents
 
-* [🚀 Get started](README.md)
+* [🏎 About Naas drivers](README.md)
 * [🖥️ Use on your computer](use-on-your-computer.md)
 * [💃 Installed librairies](installed-librairies.md)
 * [👍 Updates](changelog.md)
 
-## Automation \(No-code\) <a id="automation"></a>
+## Tools
 
-* [Bubble](automation/bubble.md)
-* [Integromat](automation/integromat.md)
-* [IFTTT](automation/ifttt.md)
-* [Zapier](automation/zappier.md)
-* [Notion](automation/notion.md)
-* [Slack](automation/slack.md)
-* [Teams](automation/teams.md)
-
-## CRM
-
-* [Hubspot](crm/hubspot.md)
-
-## Dataviz
-
-* [Plotly](dataviz/chart.md)
-* [Toucan Toco](dataviz/toucan.md)
-
-## Database
-
-* [Airtable](database/airtable.md)
-* [Google Sheets](database/gsheets.md)
-* [MongoDB](database/mongodb.md)
-
-## Emailing
-
----
-
-* [Emails](email.md)
-
-## File management
-
-* [FTP](file-management/ftp.md)
-* [Markdown](file-management/markdown.md)
-* [Html](file-management/html.md)
-* [Pdf](file-management/pdf.md)
-
-## Market Data
-
-* [Yahoo Finance](market-data/yahoo.md)
-
-## Machine Learning
-
-* [Linear regression](machine-learning/prediction.md)
-* [Sentiment analysis](machine-learning/sentiment-analysis.md)
-
-## LMS
-
-* [Thinkific](lms/thinkific.md)
-
-## News
-
-* [Cityfalcon](news/cityfalcon.md)
-* [News API](news/news-api.md)
-
-## Technical drivers <a id="drivers-out"></a>
-
-* [Bobapp.ai](drivers-out/bobapp.md)
-* [Canny](drivers-out/canny.md)
-* [Jupyter](drivers-out/jupyter.md)
-* [Healthchecks](drivers-out/healthcheks.md)
-
-## Treasury
-
-* [Qonto](treasury/qonto.md)
+* [Airtable](tools/airtable.md)
+* [Bobapp.ai](tools/bobapp.md)
+* [Bubble](tools/bubble.md)
+* [Canny](tools/canny.md)
+* [Cityfalcon](tools/cityfalcon.md)
+* [Emails](tools/email.md)
+* [FTP](tools/ftp.md)
+* [Html](tools/html.md)
+* [Hubspot](tools/hubspot.md)
+* [IFTTT](tools/ifttt.md)
+* [Integromat](tools/integromat.md)
+* [Plotly](tools/chart.md)
+* [Google Sheets](tools/gsheets.md)
+* [Healthchecks](tools/healthcheks.md)
+* [Linear regression](tools/prediction.md)
+* [MongoDB](tools/mongodb.md)
+* [Markdown](tools/markdown.md)
+* [Notion](tools/notion.md)
+* [Pdf](tools/pdf.md)
+* [Qonto](tools/qonto.md)
+* [Slack](tools/slack.md)
+* [Sentiment analysis](tools/sentiment-analysis.md)
+* [Teams](tools/teams.md)
+* [Toucan Toco](tools/toucan.md)
+* [Thinkific](tools/thinkific.md)
+* [News API](tools/news-api.md)
+* [Jupyter API](tools/jupyter.md)
+* [Yahoo Finance](tools/yahoo.md)
+* [Zapier](tools/zappier.md)
 
 ## 👉 Main docs
 
 * [Naas](https://naas.gitbook.io/naas/)
-* [Download the template](https://public.naas.ai/amVyZW15LTJFcmF2ZW5lbC00MGNhc2hzdG9yeS0yRWNvbQ==/asset/99244e374f50128c76de7a7d09209722ff109d8f3cb19a312fdd5b818e09)
 

@@ -30,11 +30,11 @@ You can plot prediction coming from prediction driver with theses column
 | :--- | :--- | :--- | :--- |
 |  |  |  |  |
 
-{% page-ref page="../machine-learning/prediction.md" %}
+{% page-ref page="prediction.md" %}
 
 all this data can be generated for you by the Yahoo driver
 
-{% page-ref page="../market-data/yahoo.md" %}
+{% page-ref page="yahoo.md" %}
 
 ### Basic
 

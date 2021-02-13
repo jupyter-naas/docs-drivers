@@ -12,7 +12,7 @@ Give a data frame with theses columns
 
 Base data can come from Yahoo driver
 
-{% page-ref page="../market-data/yahoo.md" %}
+{% page-ref page="yahoo.md" %}
 
 ## All
 
@@ -67,5 +67,5 @@ pr = naas_drivers.prediction.get(dataset=dataset)
 
 Check more options on the link below
 
-{% page-ref page="../dataviz/chart.md" %}
+{% page-ref page="chart.md" %}
 

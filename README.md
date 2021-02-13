@@ -2,7 +2,7 @@
 description: How to start using Naas drivers in minutes.
 ---
 
-# 🚀 Get started
+# 🏎 About Naas drivers
 
 ## Welcome to Naas Drivers
 
