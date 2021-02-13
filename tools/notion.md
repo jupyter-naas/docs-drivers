@@ -16,11 +16,11 @@ Click right on the notion page and select inspect
 
 Then select the Application tab \( in the red box \)
 
-![](../.gitbook/assets/screenshot-2021-02-10-at-22.35.34.png)
-
 Select the cookies section and the notion url as show in the screenshot 
 
 Then look for the `token_v2`and copie the value on the right , this is the way to login in your notion.
+
+![](../.gitbook/assets/screenshot-2021-02-10-at-22.35.34.png)
 
 ## Connect
 
@@ -34,11 +34,42 @@ from naas_drivers import notion
 # Enter your Auth token
 token = "*********"
 
-# Connect to hubspot
+# Connect to Notion
 hs = notion.connect(token=token)
 ```
 
-## Get
+## Get collection
+
+```python
+import naas_drivers
+
+token = "*********"
+url = "https://www.notion.so/myorg/Test-c0d20a71c0944985ae96e661ccc99821"
+collection_df = naas_drivers.notion.connect(token=token).get_collection(url)
+```
+
+## Create entry
+
+```python
+import naas_drivers
+
+token = "*********"
+url = "https://www.notion.so/myorg/Test-c0d20a71c0944985ae96e661ccc99821"
+n = naas_drivers.notion.connect(token=token)
+cv = n.get_collection(url, raw=True)
+
+# Add a new record
+row = cv.collection.add_row()
+row.name = "Just some data"
+row.is_confirmed = True
+row.estimated_value = 399
+row.files = ["https://www.birdlife.org/sites/default/files/styles/1600/public/slide.jpg"]
+row.person = client.current_user
+row.tags = ["A", "C"]
+row.where_to = "https://learningequality.org"
+```
+
+## Other
 
 Get the notion page content
 
@@ -131,36 +162,7 @@ page.locked = True
 page.locked = False
 ```
 
-## Get collection
-
-```python
-import naas_drivers
-
-token = "*********"
-url = "https://www.notion.so/myorg/Test-c0d20a71c0944985ae96e661ccc99821"
-collection_df = naas_drivers.notion.connect(token=token).get_collection(url)
-```
-
 You can also get it in raw format to be able to edit it :
-
-```python
-import naas_drivers
-
-token = "*********"
-url = "https://www.notion.so/myorg/Test-c0d20a71c0944985ae96e661ccc99821"
-n = naas_drivers.notion.connect(token=token)
-cv = n.get_collection(url, raw=True)
-
-# Add a new record
-row = cv.collection.add_row()
-row.name = "Just some data"
-row.is_confirmed = True
-row.estimated_value = 399
-row.files = ["https://www.birdlife.org/sites/default/files/styles/1600/public/slide.jpg"]
-row.person = client.current_user
-row.tags = ["A", "C"]
-row.where_to = "https://learningequality.org"
-```
 
 Discover more usage with the documentation of original notion package
 
