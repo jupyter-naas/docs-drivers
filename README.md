@@ -4,7 +4,7 @@ description: >-
   facilitate scripting with your favorite tools.
 ---
 
-# 🏎 About Naas drivers
+# About Naas drivers
 
 ## Welcome to Naas Drivers
 

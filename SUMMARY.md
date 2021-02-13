@@ -1,6 +1,11 @@
 # Table of contents
 
-* [🏎 About Naas drivers](README.md)
+* [About Naas drivers](README.md)
+
+## Explore
+
+* [Naas Website](https://www.naas.ai/)
+* [Features](https://naas.gitbook.io/naas/)
 
 ## Tools
 
@@ -33,10 +38,6 @@
 * [Jupyter API](tools/jupyter.md)
 * [Yahoo Finance](tools/yahoo.md)
 * [Zapier](tools/zappier.md)
-
-## 👉 Main docs
-
-* [Naas](https://naas.gitbook.io/naas/)
 
 ## MORE INFO
 
