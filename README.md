@@ -1,5 +1,7 @@
 ---
-description: How to start using Naas drivers in minutes.
+description: >-
+  How to start using Naas drivers in minutes. Naas drivers are made to
+  facilitate scripting with your favorite tools.
 ---
 
 # 🏎 About Naas drivers

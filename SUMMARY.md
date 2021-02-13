@@ -1,9 +1,6 @@
 # Table of contents
 
 * [🏎 About Naas drivers](README.md)
-* [🖥️ Use on your computer](use-on-your-computer.md)
-* [💃 Installed librairies](installed-librairies.md)
-* [👍 Updates](changelog.md)
 
 ## Tools
 
@@ -40,4 +37,11 @@
 ## 👉 Main docs
 
 * [Naas](https://naas.gitbook.io/naas/)
+
+## MORE INFO
+
+* [💃 Installed librairies](more-info/installed-librairies.md)
+* [👍 Updates](more-info/changelog.md)
+* [🖥️ Use on your computer](more-info/use-on-your-computer.md)
+* [Untitled](more-info/untitled.md)
 
