@@ -18,7 +18,7 @@ smtp_server = "smtp.sendgrid.net",
 smtp_port = 465,
 smtp_type = "SSL",
 
-emails = nass_drivers.email.connect(username, 
+emails = naas_drivers.email.connect(username, 
         password, 
         email_from, 
         smtp_server, 
