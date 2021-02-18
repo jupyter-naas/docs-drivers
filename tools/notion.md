@@ -1,42 +1,26 @@
 ---
-description: Interact with Notion app
+description: Interact with your Notion workspace.
 ---
 
 # Notion
 
+If you are not familiar with Notion, check out their website. It's pretty amazing all-in-workspace. 
+
 {% embed url="https://www.notion.so/login" caption="Login link" %}
 
-Before start, you have to connect to your account in notion and get your session token
+Before anything, you have to connect to your account in notion and get your session token
+
+First, click right on the notion page and select inspect
 
 ![](../.gitbook/assets/screenshot-2021-02-10-at-22.34.57.png)
 
-Click right on the notion page and select inspect
+Then select the Application tab \(shown in the red box\)
 
 ![](../.gitbook/assets/screenshot-2021-02-10-at-22.39.29.png)
 
-Then select the Application tab \( in the red box \)
-
-Select the cookies section and the notion url as show in the screenshot 
-
-Then look for the `token_v2`and copie the value on the right , this is the way to login in your notion.
+Finally, look for the `token_v2`and copy the value on the right, this is the way to login to your Notion workspace.
 
 ![](../.gitbook/assets/screenshot-2021-02-10-at-22.35.34.png)
-
-## Connect
-
-{% hint style="danger" %}
-You must "Connect" before any other methods
-{% endhint %}
-
-```python
-from naas_drivers import notion
-
-# Enter your Auth token
-token = "*********"
-
-# Connect to Notion
-hs = notion.connect(token=token)
-```
 
 ## Get collection
 
@@ -45,7 +29,8 @@ import naas_drivers
 
 token = "*********"
 url = "https://www.notion.so/myorg/Test-c0d20a71c0944985ae96e661ccc99821"
-collection_df = naas_drivers.notion.connect(token=token).get_collection(url)
+collection = naas_drivers.notion.connect(token=token).get_collection(url)
+collection
 ```
 
 ## Create entry
