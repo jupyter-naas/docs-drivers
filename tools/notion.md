@@ -4,7 +4,13 @@ description: Interact with your Notion workspace.
 
 # Notion
 
+Don't feel like reading the doc? 😅 This 3min video is made for you. 
+
+{% embed url="https://www.youtube.com/watch?v=V\_4EAl1RzBw" %}
+
 If you are not familiar with Notion, check out their website. It's pretty amazing all-in-workspace. 
+
+Find below is their website👇
 
 {% embed url="https://www.notion.so/login" caption="Login link" %}
 
