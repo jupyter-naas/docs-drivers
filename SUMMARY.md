@@ -10,7 +10,6 @@
 ## ⚙️ Tools
 
 * [Airtable](tools/airtable.md)
-* [Bobapp.ai](tools/bobapp.md)
 * [Bubble](tools/bubble.md)
 * [Canny](tools/canny.md)
 * [Cityfalcon](tools/cityfalcon.md)
