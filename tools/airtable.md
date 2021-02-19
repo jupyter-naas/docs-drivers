@@ -4,6 +4,12 @@ description: Interact with Airtable app
 
 # Airtable
 
+Don't feel like reading the doc 😅 ? Get started with this 3min video. 
+
+{% embed url="https://youtu.be/Bcwsj-JgGiE" %}
+
+Find below is their official website👇
+
 {% embed url="https://airtable.com/" caption="Website" %}
 
 `apikey` should be generated in your account :

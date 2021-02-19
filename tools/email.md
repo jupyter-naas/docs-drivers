@@ -4,9 +4,13 @@ description: Interact with email box
 
 # Emails
 
+Don't feel like reading the doc 😅 ? Get started with this 3min video. 
+
+{% embed url="https://www.youtube.com/watch?v=G0pWBIiFH7U&t=3s" %}
+
 ## Connect
 
-{% hint style="warning" %}
+{% hint style="success" %}
 You can save your connection and don't repeat it for each method.
 {% endhint %}
 
