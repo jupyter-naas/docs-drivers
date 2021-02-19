@@ -155,7 +155,7 @@ page.locked = False
 
 You can also get it in raw format to be able to edit it :
 
-Discover more usage with the documentation of original notion package
+Discover more usage with the documentation of the original notion python package we are using.
 
 {% embed url="https://pypi.org/project/notion/" %}
 
