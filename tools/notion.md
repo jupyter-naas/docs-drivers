@@ -4,7 +4,7 @@ description: Interact with your Notion workspace.
 
 # Notion
 
-Don't feel like reading the doc? 😅 This 3min video is made for you. 
+Don't feel like reading the doc 😅 ? Get started with this 3min video. 
 
 {% embed url="https://www.youtube.com/watch?v=V\_4EAl1RzBw" %}
 
