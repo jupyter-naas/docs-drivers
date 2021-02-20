@@ -17,12 +17,10 @@ Create a new Zap with Webhook as a trigger and choose "Catch Hook". Paste it in 
 ```python
 import naas_drivers
 
-url = "https://hooks.zapier.com/hooks/catch/5365770/op7a4m1"
+url = "https://hooks.zapier.com/hooks/catch/*****/op7a4m1"
 data = { "first_name":"Bryan", "last_name":"Helmig", "age": 27 }
 result = naas_drivers.zappier.connect(url).send(data)
 ```
-
-![](../.gitbook/assets/screenshot-2021-02-20-at-10.35.20.png)
 
 ## Official documentation
 
