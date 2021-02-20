@@ -22,6 +22,8 @@ data = { "first_name":"Bryan", "last_name":"Helmig", "age": 27 }
 result = naas_drivers.zappier.connect(url).send(data)
 ```
 
+![](../.gitbook/assets/screenshot-2021-02-20-at-10.35.20.png)
+
 ## Official documentation
 
 {% embed url="https://zapier.com/help/doc/how-get-started-webhooks-zapier" caption="Documentation" %}
