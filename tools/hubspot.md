@@ -1,5 +1,5 @@
 ---
-description: Manage your sales pipeline thanks to our connection with the CRM Hubspot
+description: Manage your sales pipeline thanks to our connection with the CRM Hubspot.
 ---
 
 # Hubspot

@@ -6,15 +6,23 @@ description: Interact with Zapier app
 
 {% embed url="http://zappier.com/" caption="Website" %}
 
-## WebHook
+## Webhook 
+
+{% hint style="info" %}
+This webhook is Premium in Zapier, but you can still test it :\)
+{% endhint %}
+
+Create a new Zap with Webhook as a trigger and choose "Catch Hook". Paste it in `url` and you are good.
 
 ```python
 import naas_drivers
 
-url = "https://zapier.com/hooks/catch/n/Lx2RH/"
+url = "https://hooks.zapier.com/hooks/catch/5365770/op7a4m1"
 data = { "first_name":"Bryan", "last_name":"Helmig", "age": 27 }
 result = naas_drivers.zappier.connect(url).send(data)
 ```
+
+![](../.gitbook/assets/screenshot-2021-02-20-at-10.35.20.png)
 
 ## Official documentation
 

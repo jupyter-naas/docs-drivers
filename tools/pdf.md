@@ -2,7 +2,7 @@
 description: Create pdf from url
 ---
 
-# Pdf
+# PDF
 
 {% hint style="warning" %}
 In local install you should set `SCREENSHOT_API`env var or `connect` first

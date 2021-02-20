@@ -9,10 +9,6 @@ description: Markdwon utility
 It accept text or filepath
 
 ```python
-
-```
-
-```python
 html = naas_drivers.markdown.convert("# My title")
 ```
 

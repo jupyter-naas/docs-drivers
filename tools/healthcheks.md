@@ -6,7 +6,7 @@ description: Interact with Healthchecks app
 
 {% embed url="https://healthchecks.io/" caption="Website" %}
 
-If you are in naas cloud it's already setup, otherwise
+If you are in Naas.ai cloud it's already setup, otherwise
 
 `HC_API` : this should be set as env vars.
 
