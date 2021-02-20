@@ -9,7 +9,7 @@ description: Interact with Zapier app
 ## Webhook 
 
 {% hint style="info" %}
-This webhook is Premium in Zapier, but you can still test it :\)
+This webhook feature is Premium in Zapier, but you can still test it :\)
 {% endhint %}
 
 Create a new Zap with Webhook as a trigger and choose "Catch Hook". Paste it in `url` and you are good.
