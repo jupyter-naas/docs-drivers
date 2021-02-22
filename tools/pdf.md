@@ -5,7 +5,7 @@ description: Create pdf from url
 # PDF
 
 {% hint style="warning" %}
-In local install you should set `SCREENSHOT_API`env var or `connect` first
+In local install, you should set `SCREENSHOT_API`env var or `connect` first
 {% endhint %}
 
 ## Get
@@ -15,7 +15,7 @@ import naas_drivers
 
 url = "https://google.com"
 filename = "google.pdf"
-naas_drivers.pdf.get(url=url, filename=filename)
+naas_drivers.pdf.connect().get(url=url, filename=filename)
 ```
 
 ## Get from Html
@@ -24,7 +24,7 @@ naas_drivers.pdf.get(url=url, filename=filename)
 import naas_drivers
 html = '<a src="https://google.com">test</a>'
 filename = "google.pdf"
-naas_drivers.pdf.get(html=html, filename=filename)
+naas_drivers.pdf.connect().get(html=html, filename=filename)
 ```
 
 ## Connect
