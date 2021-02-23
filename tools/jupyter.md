@@ -2,7 +2,7 @@
 description: Interact with Jupyter app
 ---
 
-# Naas Jupyter API
+# Jupyter API
 
 {% embed url="https://jupyter.org/hub" caption="Website" %}
 

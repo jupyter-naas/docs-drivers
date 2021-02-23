@@ -2,7 +2,7 @@
 description: Predict the time series data
 ---
 
-# Naas Linear regression
+# Linear regression
 
 Give a data frame with these columns
 

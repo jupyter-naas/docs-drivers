@@ -2,7 +2,7 @@
 description: Build HTML easily for emails or webpages
 ---
 
-# Naas Email builder
+# Email builder
 
 ## Title
 
