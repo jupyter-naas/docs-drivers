@@ -6,7 +6,7 @@ description: Interact with IFTTT.com
 
 {% embed url="https://ifttt.com" caption="Website" %}
 
-Connect to IFTT and first go to the webhook page: [https://ifttt.com/maker\_webhooks/](https://ifttt.com/maker_webhooks/)
+Connect to IFTTT and first go to the webhook page: [https://ifttt.com/maker\_webhooks/](https://ifttt.com/maker_webhooks/)
 
 Hit the documentation button, your key appears on the first line:
 

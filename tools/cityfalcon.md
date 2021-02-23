@@ -15,6 +15,7 @@ You can request only tickers on Cityfalcon free plan
 {% endhint %}
 
 ```python
+import naas_drivers
 naas_drivers.cityfalcon.connect("YOUR_API_KEY").get("TSLA")
 ```
 
