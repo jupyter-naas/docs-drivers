@@ -2,7 +2,7 @@
 description: Interact with email box
 ---
 
-# Emails
+# Naas Mailbox manager
 
 Don't feel like reading the doc 😅 ? Get started with this 3min video. 
 

@@ -2,7 +2,7 @@
 description: Interact with Jupyter app
 ---
 
-# Jupyter API
+# Naas Jupyter API
 
 {% embed url="https://jupyter.org/hub" caption="Website" %}
 
@@ -27,15 +27,15 @@ token = "*****"
 jp = naas_drivers.jupyter.connect(token)
 ```
 
-## Me
+## Get info
 
-### Get 
+### Get my profile
 
 ```python
 me = jp.get_me()
 ```
 
-### Uptime
+### Get my uptime
 
 ```python
 uptime = jp.get_me_uptime()
