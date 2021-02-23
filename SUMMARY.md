@@ -23,7 +23,7 @@
 * [Jupyter API](tools/jupyter.md)
 * [Linear regression](tools/prediction.md)
 * [MongoDB](tools/mongodb.md)
-* [Mailbox manager](tools/email.md)
+* [Mailbox management](tools/email.md)
 * [Markdown](tools/markdown.md)
 * [News API](tools/news-api.md)
 * [Notion](tools/notion.md)

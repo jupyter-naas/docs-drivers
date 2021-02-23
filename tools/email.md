@@ -1,8 +1,8 @@
 ---
-description: Interact with email box
+description: Interact with email box thanks to Naas custom driver.
 ---
 
-# Mailbox manager
+# Mailbox management
 
 Don't feel like reading the doc 😅 ? Get started with this 3min video. 
 
