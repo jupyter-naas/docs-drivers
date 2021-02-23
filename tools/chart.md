@@ -10,7 +10,7 @@ description: Create chart easily with plotly
 
 Create stock chart from Dataframe
 
-If you use yahoo driverdrivers  you can pass it without option it's made to work together
+If you use yahoo driver drivers  you can pass it without option it's made to work together
 
 Give a data frame with theses columns
 

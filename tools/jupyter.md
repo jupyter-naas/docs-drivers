@@ -35,12 +35,6 @@ jp = naas_drivers.jupyter.connect(token)
 me = jp.get_me()
 ```
 
-### Get my uptime
-
-```python
-uptime = jp.get_me_uptime()
-```
-
 ## 🔑 Admin
 
 Only Naas admin can do it.
