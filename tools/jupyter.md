@@ -20,6 +20,8 @@ In Naas cloud you can connect without any argument it will find your token alone
 
 {% embed url="https://app.naas.ai/hub/token" %}
 
+## Connect to Jupyter instance
+
 ```python
 token = "*****"
 jp = naas_drivers.jupyter.connect(token)
@@ -39,9 +41,9 @@ me = jp.get_me()
 uptime = jp.get_me_uptime()
 ```
 
-## Admin
+## 🔑 Admin
 
-Only Naas admin can do it
+Only Naas admin can do it.
 
 ### Get Users
 
