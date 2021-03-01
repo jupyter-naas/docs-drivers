@@ -19,7 +19,7 @@ import naas_drivers
 
 url = "https://hooks.zapier.com/hooks/catch/*****/op7a4m1"
 data = { "first_name":"Bryan", "last_name":"Helmig", "age": 27 }
-result = naas_drivers.zappier.connect(url).send(data)
+result = naas_drivers.zapier.connect(url).send(data)
 ```
 
 ## Official documentation
