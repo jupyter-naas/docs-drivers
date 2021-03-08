@@ -10,6 +10,7 @@
 ## ⚙️ Tools
 
 * [Airtable](tools/airtable.md)
+* [Awesome notebook](tools/awesome-notebook.md)
 * [Bubble](tools/bubble.md)
 * [Canny](tools/canny.md)
 * [Cityfalcon](tools/cityfalcon.md)
