@@ -8,7 +8,7 @@ description: Interact with our awesome notebook repo
 
 
 
-Get List
+## Get list
 
 ```python
 from naas_drivers import awesomeNotebooks, markdown
@@ -17,7 +17,7 @@ md_generated_list = awesomeNotebooks.connect().get()
 markdown.display(md_generated_list)
 ```
 
-Create badge 
+## Create badge
 
 ```python
 from naas_drivers import awesomeNotebooks
