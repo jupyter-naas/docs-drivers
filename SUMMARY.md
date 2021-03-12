@@ -14,7 +14,7 @@
 * [Bubble](tools/bubble.md)
 * [Canny](tools/canny.md)
 * [Cityfalcon](tools/cityfalcon.md)
-* [Email builder](tools/html.md)
+* [Email builder](tools/emailbuilder.md)
 * [FTP](tools/ftp.md)
 * [Google Sheets](tools/gsheets.md)
 * [Healthchecks](tools/healthcheks.md)
