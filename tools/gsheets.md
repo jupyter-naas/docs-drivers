@@ -37,6 +37,8 @@ data = naas_drivers.gsheet.connect(spreadsheet_id).get(
 
 ## Send
 
+### Append
+
 ```python
 import naas_drivers
 
@@ -46,6 +48,24 @@ data = [{ "name": "Jean", "email": "jean@appleseed.com" }, { "name": "Bunny", "e
 spreadsheet_id = "idd"
 naas_drivers.gsheet.connect(spreadsheet_id).send(
     sheet_name="TSLA",
+    data=data
+)
+```
+
+### Erase and replace
+
+When you need to clear the sheet before filling it!
+
+```python
+import naas_drivers
+
+data = [{ "name": "Jean", "email": "jean@appleseed.com" }, { "name": "Bunny", "email": "bunny@appleseed.com" }]
+# It accept list of dict or dataframe
+
+spreadsheet_id = "idd"
+naas_drivers.gsheet.connect(spreadsheet_id).send(
+    sheet_name="TSLA",
+    append=False,
     data=data
 )
 ```
