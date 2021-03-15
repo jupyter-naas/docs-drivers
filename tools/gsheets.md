@@ -20,7 +20,7 @@ For the driver to fetch the contents of your google sheet, you need to share it 
 
 Now you can fetch data from the sheet as a pandas data frame.
 
-Get your `spreadsheetId` for your spreadsheet url like this :
+Get your `spreadsheetId` for your spreadsheet URL like this :
 
 ![spreadsheetId](../.gitbook/assets/screenshot-2020-11-09-at-15.26.41.png)
 
@@ -38,6 +38,8 @@ data = naas_drivers.gsheet.connect(spreadsheet_id).get(
 ## Send
 
 ### Append
+
+Append to the current sheet.
 
 ```python
 import naas_drivers
