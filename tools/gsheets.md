@@ -30,8 +30,11 @@ Get your `spreadsheetId` for your spreadsheet URL like this :
 import naas_drivers
 
 spreadsheet_id = "idd"
-data = naas_drivers.gsheet.connect(spreadsheet_id).get(
-    sheet_name="name"
+sheet_name = "sheet_name"
+
+# Dataframe is returned
+df = naas_drivers.gsheet.connect(spreadsheet_id).get(
+    sheet_name=sheet_name
 )
 ```
 
@@ -44,12 +47,15 @@ Append to the current sheet.
 ```python
 import naas_drivers
 
-data = [{ "name": "Jean", "email": "jean@appleseed.com" }, { "name": "Bunny", "email": "bunny@appleseed.com" }]
-# It accept list of dict or dataframe
-
 spreadsheet_id = "idd"
+sheet_name = "sheet_name"
+
+# Data accepts list of dict or dataframe
+data = [{"name": "Jean", "email": "jean@appleseed.com"},
+        {"name": "Bunny", "email": "bunny@appleseed.com"}]
+        
 naas_drivers.gsheet.connect(spreadsheet_id).send(
-    sheet_name="TSLA",
+    sheet_name=sheet_name,
     data=data
 )
 ```
@@ -61,14 +67,17 @@ When you need to clear the sheet before filling it!
 ```python
 import naas_drivers
 
-data = [{ "name": "Jean", "email": "jean@appleseed.com" }, { "name": "Bunny", "email": "bunny@appleseed.com" }]
-# It accept list of dict or dataframe
-
 spreadsheet_id = "idd"
+sheet_name = "sheet_name"
+
+# Data accepts list of dict or dataframe
+data = [{"name": "Jean", "email": "jean@appleseed.com"},
+        {"name": "Bunny", "email": "bunny@appleseed.com"}]
+
 naas_drivers.gsheet.connect(spreadsheet_id).send(
-    sheet_name="TSLA",
-    append=False,
-    data=data
+    sheet_name=sheet_name,
+    data=data,
+    append=False
 )
 ```
 
@@ -79,12 +88,14 @@ delete rows to the current sheet.
 ```python
 import naas_drivers
 
-rows = [3,4,5]
-# It accept list of dict or dataframe
-
 spreadsheet_id = "idd"
+sheet_name = "sheet_name"
+
+# Data accepts list of dict or dataframe
+rows = [3, 4, 5]
+
 naas_drivers.gsheet.connect(spreadsheet_id).send(
-    sheet_name="TSLA",
+    sheet_name=sheet_name,
     rows=rows
 )
 ```
@@ -99,9 +110,6 @@ You can also save your connection and don't repeat it for each method.
 import naas_drivers
 
 gsheet = naas_drivers.gsheet.connect("spreadsheet_id")
-
-name_1 = cityfalcon.get("name_1")
-name_2 = cityfalcon.get("name_2")
 ```
 
 ## Official documentation
