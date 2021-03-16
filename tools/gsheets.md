@@ -72,6 +72,23 @@ naas_drivers.gsheet.connect(spreadsheet_id).send(
 )
 ```
 
+## Delete
+
+delete rows to the current sheet.
+
+```python
+import naas_drivers
+
+rows = [3,4,5]
+# It accept list of dict or dataframe
+
+spreadsheet_id = "idd"
+naas_drivers.gsheet.connect(spreadsheet_id).send(
+    sheet_name="TSLA",
+    rows=rows
+)
+```
+
 ## Connect
 
 {% hint style="warning" %}
