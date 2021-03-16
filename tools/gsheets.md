@@ -94,7 +94,7 @@ sheet_name = "sheet_name"
 # Data accepts list of dict or dataframe
 rows = [3, 4, 5]
 
-naas_drivers.gsheet.connect(spreadsheet_id).send(
+naas_drivers.gsheet.connect(spreadsheet_id).delete(
     sheet_name=sheet_name,
     rows=rows
 )
