@@ -19,25 +19,27 @@ To "connect", inspect your linkedin page while connected and get your cookies in
 
 ### Linkedin profil
 
-```text
+```python
 from naas_drivers import linkedin
 
 LI_AT = 'YOUR_COOKIE_LI_AT'  # EXAMPLE AQFAzQN_PLPR4wAAAXc-FCKmgiMit5FLdY1af3-2
 JSESSIONID = 'YOUR_COOKIE_JSESSIONID'  # EXAMPLE ajax:8379907400220387585
 linkedinid = "LINKEDIN_PROFILE"
 
-profil = LK = linkedin.connect(LI_AT, JSESSIONID).get_profil(linkedinid)
+profil = linkedin.connect(LI_AT, JSESSIONID).get_profil(linkedinid)
+profil
 ```
 
 ### Last 20 messages
 
-```text
+```python
 from naas_drivers import linkedin
 
 LI_AT = 'YOUR_COOKIE_LI_AT'  # EXAMPLE AQFAzQN_PLPR4wAAAXc-FCKmgiMit5FLdY1af3-2
 JSESSIONID = 'YOUR_COOKIE_JSESSIONID'  # EXAMPLE ajax:8379907400220387585
 
 df_messages = linkedin.connect(LI_AT, JSESSIONID).get_messages()
+df_messages
 ```
 
 ## Advanced
