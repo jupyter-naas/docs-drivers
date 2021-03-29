@@ -23,6 +23,7 @@
 * [Integromat](tools/integromat.md)
 * [Jupyter API](tools/jupyter.md)
 * [Linear regression](tools/prediction.md)
+* [Linkedin](tools/linkedin.md)
 * [MongoDB](tools/mongodb.md)
 * [Mailbox](tools/email.md)
 * [Markdown](tools/markdown.md)
