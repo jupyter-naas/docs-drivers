@@ -42,7 +42,7 @@ Choose fields you want to get in result, list available below:
 
 ```python
 fields = ["image", "title"]
-naas_drivers.newsapi.get("TSLA", fields=fields)
+naas_drivers.newsapi.get(q="TSLA", fields=fields)
 ```
 
 ### Language
@@ -51,16 +51,16 @@ Language of news
 
 ```python
 country = "en"
-data = naas_drivers.newsapi.get("TSLA", language=country)
+data = naas_drivers.newsapi.get(q="TSLA", language=country)
 ```
 
 ### Limit
 
-Limit the number of result 
+Limit the number of results
 
 ```python
 limit = 5
-data = naas_drivers.newsapi.get("TSLA", limit=limit)
+data = naas_drivers.newsapi.get(q="TSLA", limit=limit)
 ```
 
 ## Get top news
