@@ -11,19 +11,17 @@ description: Interact with our awesome notebook repo
 ## Get list
 
 ```python
-from naas_drivers import awesomeNotebooks, markdown
+import naas_drivers
 
-md_generated_list = awesomeNotebooks.connect().get()
-markdown.display(md_generated_list)
+naas_drivers.templates.get()
 ```
 
 ## Create badge
 
 ```python
-from naas_drivers import awesomeNotebooks
+import naas_drivers
 
 file_url = "https://github.com/jupyter-naas/awesome-notebooks/blob/master/Airtable/Airtable_connect.ipynb"
-html_button = awesomeNotebooks.connect().badge(file_url)
-html_button
+naas_drivers.templates.badge(file_url)
 ```
 
