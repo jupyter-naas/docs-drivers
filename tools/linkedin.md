@@ -24,11 +24,15 @@ from naas_drivers import linkedin
 
 LI_AT = 'YOUR_COOKIE_LI_AT'  # EXAMPLE AQFAzQN_PLPR4wAAAXc-FCKmgiMit5FLdY1af3-2
 JSESSIONID = 'YOUR_COOKIE_JSESSIONID'  # EXAMPLE ajax:8379907400220387585
-linkedinid = "LINKEDIN_PROFILE"
+linkedinid = "LINKEDIN_ID"
 
 profil = linkedin.connect(LI_AT, JSESSIONID).get_profil(linkedinid)
 profil
 ```
+
+{% hint style="warning" %}
+Note that LinkedIn ID is : [https://www.linkedin.com/in/LINKEDIN\_ID/](https://www.linkedin.com/in/************/)
+{% endhint %}
 
 ### Last 20 messages
 
