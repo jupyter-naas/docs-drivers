@@ -19,7 +19,7 @@ To "connect", click right and inspect your linkedin page and get your cookies in
 
 ## Get 
 
-### User profil
+### Profile
 
 #### Formula
 
@@ -55,7 +55,7 @@ df
 * LK\_EMAIL : Email
 * LK\_TWITER : Twitter account
 
-### Last 20 messages
+### Messages \(last 20\)
 
 #### Formula
 
