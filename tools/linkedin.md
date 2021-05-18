@@ -49,7 +49,7 @@ df
 * COUNTRY : Country name
 * ADDRESS : Address
 * LK\_HEADLINE : Job description \(headline\)
-* LK\_SECTOR : Sector of work
+* LK\_SECTOR : Work industry
 * LK\_FOLLOWERS : Number of followers
 * LK\_PHONE : Phone number
 * LK\_EMAIL : Email
@@ -106,14 +106,14 @@ df
 * URL : Post url
 * TITLE : Post text before first break
 * DATE : Time since post publication
-* VIEWS : Number of views
-* COMMENTS : Number of comments
-* LIKES : Number of likes
-* LIKES\_LIKE : Number of likes type "like"
-* LIKES\_PRAISE : Number of likes type "praise"
-* LIKES\_INTEREST : Number of likes type "interest"
-* LIKES\_APPRECIATION : Number of likes type "appreciation"
-* LIKES\_EMPATHY : Number of likes type "empathy"
+* VIEWS : Numbers of views
+* COMMENTS : Numbers of comments
+* LIKES : Numbers of likes
+* LIKES\_LIKE : Numbers of likes type "like"
+* LIKES\_PRAISE : Numbers of likes type "praise"
+* LIKES\_INTEREST : Numbers of likes type "interest"
+* LIKES\_APPRECIATION : Numbers of likes type "appreciation"
+* LIKES\_EMPATHY : Numbers of likes type "empathy"
 
 ## Advanced
 
