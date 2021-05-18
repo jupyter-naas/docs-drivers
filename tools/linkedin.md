@@ -2,66 +2,136 @@
 description: Improve your KYC thanks to Linkedin connection
 ---
 
-# Linkedin
+# LinkedIn
 
 {% embed url="https://www.linkedin.com" %}
 
 ## Connect
 
 {% hint style="info" %}
-To "connect", inspect your linkedin page while connected and get your cookies info in "Application" tab :
+To "connect", click right and inspect your linkedin page and get your cookies info in "Application" tab :
 
 * li\_at
 * JSESSIONID
 {% endhint %}
 
+![](../.gitbook/assets/lk_connect.png)
+
 ## Get 
 
-### Linkedin profil
+### User profil
+
+#### Formula
 
 ```python
 from naas_drivers import linkedin
 
-LI_AT = 'YOUR_COOKIE_LI_AT'  # EXAMPLE AQFAzQN_PLPR4wAAAXc-FCKmgiMit5FLdY1af3-2
-JSESSIONID = 'YOUR_COOKIE_JSESSIONID'  # EXAMPLE ajax:8379907400220387585
-linkedinid = "LINKEDIN_ID"
+# Enter cookies information
+LI_AT = 'YOUR_COOKIE_LI_AT'  # EXAMPLE : AQFAzQN_PLPR4wAAAXc-FCKmgiMit5FLdY1af3-2
+JSESSIONID = 'YOUR_COOKIE_JSESSIONID'  # EXAMPLE : ajax:8379907400220387585
 
-profil = linkedin.connect(LI_AT, JSESSIONID).get_profil(linkedinid)
-profil
+# Enter the linkedin id or linkedin url
+url = "LINKEDIN_ID" or "LINKEDIN_URL"
+
+# Get dataframe as result
+df = linkedin.connect(LI_AT, JSESSIONID).get_profil(url)
+df
 ```
 
-{% hint style="warning" %}
-Note that LinkedIn ID is : [https://www.linkedin.com/in/LINKEDIN\_ID/](https://www.linkedin.com/in/************/)
-{% endhint %}
+#### Result
+
+* FIRSTNAME : First name
+* LASTNAME : Last name
+* BIRTHDATE\_DAY : Day of birth in format DD
+* BIRTHDATE\_MONTH : Month of birth in format MM
+* BIRTHDATE\_YEAR : Year of birth in format YYYY
+* BIRTHDATE : Birthdate in format DD, MM - YYYY 
+* COUNTRY : Country name
+* ADDRESS : Address
+* LK\_HEADLINE : Job description \(headline\)
+* LK\_SECTOR : Sector of work
+* LK\_FOLLOWERS : Number of followers
+* LK\_PHONE : Phone number
+* LK\_EMAIL : Email
+* LK\_TWITER : Twitter account
 
 ### Last 20 messages
 
+#### Formula
+
 ```python
 from naas_drivers import linkedin
 
-LI_AT = 'YOUR_COOKIE_LI_AT'  # EXAMPLE AQFAzQN_PLPR4wAAAXc-FCKmgiMit5FLdY1af3-2
-JSESSIONID = 'YOUR_COOKIE_JSESSIONID'  # EXAMPLE ajax:8379907400220387585
+# Enter cookies information
+LI_AT = "YOUR_COOKIE_LI_AT"  # EXAMPLE AQFAzQN_PLPR4wAAAXc-FCKmgiMit5FLdY1af3-2
+JSESSIONID = "YOUR_COOKIE_JSESSIONID"  # EXAMPLE ajax:8379907400220387585
 
-df_messages = linkedin.connect(LI_AT, JSESSIONID).get_messages()
-df_messages
+# Get dataframe as result
+df = linkedin.connect(LI_AT, JSESSIONID).get_messages()
+df
 ```
+
+#### Result
+
+* FIRSTNAME : First name
+* LASTNAME : Last name
+* OCCUPATION : Job description \(headline\)
+* PROFILE\_PUBLIC\_ID : LinkedIn ID
+* LAST\_ACTIVITY : Last activity in format YYYY-MM-DD HH:MM:SS
+* LAST\_READ\_AT : Last message read at in format YYYY-MM-DD HH:MM:SS
+* MESSAGE\_TEXT : Message content
+* MESSAGE\_TYPE : Message type
+
+### Post data
+
+#### Formula
+
+```python
+from naas_drivers import linkedin
+
+# Enter cookies information
+LI_AT = "YOUR_COOKIE_LI_AT"  # EXAMPLE AQFAzQN_PLPR4wAAAXc-FCKmgiMit5FLdY1af3-2
+JSESSIONID = "YOUR_COOKIE_JSESSIONID"  # EXAMPLE ajax:8379907400220387585
+
+# Enter post url
+url = "YOUR_POST_URL"
+
+# Get dataframe as result
+df = linkedin.connect(LI_AT, JSESSIONID).get_post_data(url)
+df
+```
+
+#### Result
+
+* URL : Post url
+* TITLE : Post text before first break
+* DATE : Time since post publication
+* VIEWS : Number of views
+* COMMENTS : Number of comments
+* LIKES : Number of likes
+* LIKES\_LIKE : Number of likes type "like"
+* LIKES\_PRAISE : Number of likes type "praise"
+* LIKES\_INTEREST : Number of likes type "interest"
+* LIKES\_APPRECIATION : Number of likes type "appreciation"
+* LIKES\_EMPATHY : Number of likes type "empathy"
 
 ## Advanced
 
 {% hint style="warning" %}
-You can "Connect" before any other methods and use your object in your formulas
+You can "connect" before any other methods and use your object in your formulas
 {% endhint %}
 
 ```python
 from naas_drivers import linkedin
 
-LI_AT = 'YOUR_COOKIE_LI_AT'  # EXAMPLE AQFAzQN_PLPR4wAAAXc-FCKmgiMit5FLdY1af3-2
-JSESSIONID = 'YOUR_COOKIE_JSESSIONID'  # EXAMPLE ajax:8379907400220387585
+# Enter cookies information
+LI_AT = "YOUR_COOKIE_LI_AT"  # EXAMPLE AQFAzQN_PLPR4wAAAXc-FCKmgiMit5FLdY1af3-2
+JSESSIONID = "YOUR_COOKIE_JSESSIONID"  # EXAMPLE ajax:8379907400220387585
 
 # Connect to Linkedin
 LK = linkedin.connect(LI_AT, JSESSIONID)
 
 # Get last 20 messages
-df_messages = LK.get_messages()
+df = LK.get_messages()
 ```
 
