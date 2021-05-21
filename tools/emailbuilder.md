@@ -331,6 +331,41 @@ elems = [naas_drivers.html().text("My text")]
 email_content = naas_drivers.emailbuilder.footer("My title", elem, elems)
 ```
 
+## Comapny Footer
+
+### Social networks icons
+
+```python
+networks = [{
+    'img_src': 'https://about.twitter.com/content/dam/about-twitter/en/brand-toolkit/brand-download-img-1.jpg.twimg.1920.jpg',
+    'href': 'https://twitter.com/'
+}]
+
+naas_drivers.emailbuilder.footer_company(networks=networks)
+naas_drivers.emailbuilder.footer_company(networks=networks,
+                                        logo_width='5%',
+                                        logo_padding='5px',
+                                        logo_margin='0px 15px')
+```
+
+### Company informations
+
+```python
+company = ["Naas: Notebooks-as-a-service",
+    "https://www.naas.ai/"]
+
+naas_drivers.emailbuilder.footer_company(company=company)
+```
+
+### Legal informations
+
+```python
+legal = ["Powered by CASHSTORY © 2021",
+    "CashStory SAS, 5 rue Hermel, 75018 Paris, France"]
+
+naas_drivers.emailbuilder.footer_company(legal=legal)
+```
+
 ## Generate
 
 ```python
