@@ -158,6 +158,47 @@ data = pandas.DataFrame()
 email_content = naas_drivers.emailbuilder.table(data)
 ```
 
+### Header
+
+```python
+email_content = naas_drivers.emailbuilder.table(data,
+    header=True,             # Add a header to the table
+    header_bg_color="black", # Set the background color of the header
+    header_ft_color="white") # Set the font color of the header
+```
+
+### Border
+
+```python
+email_content = naas_drivers.emailbuilder.table(data,
+    border=True,          # Add a border to the table
+    border_color="black") # Set the color of the border
+```
+
+### Align
+
+```python
+align = {
+    0: "left",
+    1: "center",
+    2: "righ"
+}
+
+email_content = naas_drivers.emailbuilder.table(data, col_align=align)
+```
+
+### Column size
+
+```python
+size = {
+    0: "50%",
+    1: "10em",
+    2: "30px"
+}
+
+email_content = naas_drivers.emailbuilder.table(data, col_size=size)
+```
+
 ## Image
 
 ### Simple
