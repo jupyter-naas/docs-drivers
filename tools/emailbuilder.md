@@ -24,6 +24,30 @@ email_content = naas_drivers.emailbuilder.title("My title", "My subtitle")
 email_content = naas_drivers.emailbuilder.heading("My heading")
 ```
 
+### Style
+
+```python
+email_content = naas_drivers.emailbuilder.heading("My heading", bold=False, underline=True, italic=True)
+```
+
+### Color
+
+```python
+email_content = naas_drivers.emailbuilder.heading("My heading", color='blue')
+```
+
+### Align
+
+```python
+email_content = naas_drivers.emailbuilder.heading("My heading", text_align='left')
+```
+
+### Size
+
+```python
+email_content = naas_drivers.emailbuilder.heading("My heading", font_size=28)
+```
+
 ## Subheading
 
 ```python
@@ -128,6 +152,16 @@ email_content = naas_drivers.emailbuilder.link(link, color="#F2F2F2")
 ```
 
 
+
+## List
+
+```python
+list_ = ["First element",
+         "Second element",
+         "Third element"]
+
+email_content = naas_drivers.emailbuilder.list(list_)
+```
 
 ## Table
 
