@@ -18,13 +18,37 @@ email_content = naas_drivers.emailbuilder.title("My title")
 email_content = naas_drivers.emailbuilder.title("My title", "My subtitle")
 ```
 
+### Style
+
+```python
+email_content = naas_drivers.emailbuilder.title("My title", bold=False, underline=True, italic=True)
+```
+
+### Color
+
+```python
+email_content = naas_drivers.emailbuilder.title("My title", color='blue')
+```
+
+### Align
+
+```python
+email_content = naas_drivers.emailbuilder.title("My title", text_align='right')
+```
+
+### Font size
+
+```python
+email_content = naas_drivers.emailbuilder.title("My title", font_size=32)
+```
+
 ## Heading
 
 ```python
 email_content = naas_drivers.emailbuilder.heading("My heading")
 ```
 
-### Style
+### Font Style
 
 ```python
 email_content = naas_drivers.emailbuilder.heading("My heading", bold=False, underline=True, italic=True)
@@ -42,7 +66,7 @@ email_content = naas_drivers.emailbuilder.heading("My heading", color='blue')
 email_content = naas_drivers.emailbuilder.heading("My heading", text_align='left')
 ```
 
-### Size
+### Font size
 
 ```python
 email_content = naas_drivers.emailbuilder.heading("My heading", font_size=28)
@@ -54,6 +78,30 @@ email_content = naas_drivers.emailbuilder.heading("My heading", font_size=28)
 email_content = naas_drivers.emailbuilder.subheading("My subheading")
 ```
 
+### Style
+
+```python
+email_content = naas_drivers.emailbuilder.subheading("My subheading", bold=False, underline=True, italic=True)
+```
+
+### Color
+
+```python
+email_content = naas_drivers.emailbuilder.subheading("My subheading", color='blue')
+```
+
+### Align
+
+```python
+email_content = naas_drivers.emailbuilder.subheading("My subheading", text_align='left')
+```
+
+### Font size
+
+```python
+email_content = naas_drivers.emailbuilder.subheading("My subheading", font_size=28)
+```
+
 ## Text
 
 ### Simple
@@ -62,10 +110,69 @@ email_content = naas_drivers.emailbuilder.subheading("My subheading")
 email_content = naas_drivers.emailbuilder.text("My text")
 ```
 
-### Font Size
+### Style
 
 ```python
-email_content = naas_drivers.emailbuilder.text("My text", font_size="42px")
+email_content = naas_drivers.emailbuilder.text("My text", bold=True, underline=True, italic=True)
+```
+
+### Color
+
+```python
+email_content = naas_drivers.emailbuilder.text("My text", color='blue')
+```
+
+### Align
+
+```python
+email_content = naas_drivers.emailbuilder.text("My text", text_align='center')
+```
+
+### Font size
+
+```python
+email_content = naas_drivers.emailbuilder.text("My text", font_size=22)
+```
+
+## Link
+
+### Simple
+
+```python
+link = "https://google.com"
+email_content = naas_drivers.emailbuilder.link(link)
+```
+
+### Title
+
+```python
+link = "https://google.com"
+email_content = naas_drivers.emailbuilder.link(link, title="My title")
+```
+
+### Style
+
+```python
+email_content = naas_drivers.emailbuilder.text("My text", bold=True, underline=True, italic=True)
+```
+
+### Color
+
+```python
+link = "https://google.com"
+email_content = naas_drivers.emailbuilder.link(link, color="#F2F2F2")
+```
+
+### Align
+
+```python
+email_content = naas_drivers.emailbuilder.text("My text", text_align='center')
+```
+
+### Font size
+
+```python
+email_content = naas_drivers.emailbuilder.text("My text", font_size=22)
 ```
 
 ## Info
@@ -127,31 +234,6 @@ email_content = naas_drivers.emailbuilder.button(url, color="blue", background_c
 ```python
 email_content = naas_drivers.emailbuilder.address("My title", "My content")
 ```
-
-## Link
-
-### Simple
-
-```python
-link = "https://google.com"
-email_content = naas_drivers.emailbuilder.link(link)
-```
-
-### Title
-
-```python
-link = "https://google.com"
-email_content = naas_drivers.emailbuilder.link(link, title="My title")
-```
-
-### Color
-
-```python
-link = "https://google.com"
-email_content = naas_drivers.emailbuilder.link(link, color="#F2F2F2")
-```
-
-
 
 ## List
 
