@@ -45,9 +45,9 @@ pr = naas_drivers.prediction.get(dataset=dataset, prediction_type="ARIMA")
 
 ## Options
 
-*  `dataset` : the dataset in DataFrame format
-* `label`: The exact name of the column that is to be predicted, from the dataset
-*  `date_column`:_The date range from the dataset. Will be used as the output index._
+* `dataset` : the dataset in DataFrame format
+* `column`: The exact name of the column that is to be predicted, from the dataset
+* `date_column`:The date range from the dataset. Will be used as the output index.
 * `prediction_type`: _Can be ARIMA,_ LINEAR, SVR, COMPOUND or all
 * `data_points` ****\(optional\)**:** number of days to predict
 * `concact_label` \(optional\): A column name who will generate a concatenated frame with past and future data.
