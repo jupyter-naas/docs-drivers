@@ -6,6 +6,10 @@ description: Improve your KYC thanks to Linkedin connection
 
 {% embed url="https://www.linkedin.com" %}
 
+{% hint style="danger" %}
+As of June 2021, we are starting a refactoring of the LinkedIn driver, please refer to the [awesome-notebook Github page](https://github.com/jupyter-naas/awesome-notebooks/tree/master/LinkedIn) to get the latest updates.
+{% endhint %}
+
 ## Connect
 
 {% hint style="info" %}
