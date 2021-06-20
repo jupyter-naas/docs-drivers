@@ -10,16 +10,13 @@ description: Improve your KYC thanks to Linkedin connection
 As of June 2021, we are starting a refactoring of the LinkedIn driver, please refer to the [awesome-notebook Github page](https://github.com/jupyter-naas/awesome-notebooks/tree/master/LinkedIn) to get the latest updates.
 {% endhint %}
 
-## Connect
+## Get your cookies
+
+To access your LinkedIn data, you need to learn how to get your cookies.
 
 {% hint style="info" %}
-To "connect", click right and inspect your linkedin page and get your cookies info in "Application" tab :
-
-* li\_at
-* JSESSIONID
+To get your cookies, please follow this [tutorial.](https://www.notion.so/LinkedIn-driver-Get-your-cookies-d20a8e7e508e42af8a5b52e33f3dba75)
 {% endhint %}
-
-![](../.gitbook/assets/lk_connect.png)
 
 ## Get 
 
